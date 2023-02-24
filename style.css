@@ -9,8 +9,10 @@
   margin-right: 100px;
 }
 .navbar {
-  margin-left: 100px;
-  margin-right: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 10px;
+  background-color: white;
 }
 .start {
   padding-top: 10px;
@@ -21,6 +23,7 @@
   color: white;
   border-radius: 8px;
 }
+
 #second {
   display: flex;
   flex-direction: row;
@@ -32,10 +35,6 @@
     padding-right:  70px; */
   padding: 200px 160px 200px 90px;
 }
-h1 {
-  font-size: 500%;
-  font-weight: bold;
-}
 #home-p {
   color: rgb(47, 179, 188);
 }
@@ -43,7 +42,7 @@ h1 {
   color: gray;
   font-size: larger;
 }
-.second-start {
+.second-start-button {
   background-color: #3bb9d5;
   padding: 15px 30px 15px 30px;
   border-radius: 5px;
@@ -51,14 +50,12 @@ h1 {
 }
 .second-right {
   background-color: rgb(246, 221, 233);
-  /* position: fixed; */
+  padding-top: 10px;
   border-radius: 500px;
-  /* padding-right: 70px; */
 }
-/* #f-image{
-    width: 100px;
-    height: ;
-} */
+#f-image{
+    padding-top: 40px;
+}
 
 #office-p {
   color: rgb(47, 179, 188);
@@ -68,4 +65,9 @@ h1 {
 .third-cards {
   display: flex;
   flex-direction: row;
+}
+
+h1 {
+  font-size: 500%;
+  font-weight: bold;
 }
