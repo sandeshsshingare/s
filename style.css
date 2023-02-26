@@ -13,6 +13,7 @@
   padding-right: 100px;
   padding-bottom: 10px;
   background-color: white;
+  margin-bottom: 20px;
 }
 .start {
   padding-top: 10px;
@@ -23,6 +24,11 @@
   color: white;
   border-radius: 8px;
 }
+
+
+
+
+
 
 #second {
   display: flex;
@@ -42,19 +48,23 @@
   color: gray;
   font-size: larger;
 }
-.second-start-button {
+.second-start {
   background-color: #3bb9d5;
   padding: 15px 30px 15px 30px;
   border-radius: 5px;
   color: white;
 }
 .second-right {
-  background-color: rgb(246, 221, 233);
-  padding-top: 10px;
-  border-radius: 500px;
+  /* padding-top: 10px; */
+  /* border-radius: 500px; */
+  margin: 90px 90px 45px -70px;
 }
 #f-image{
-    padding-top: 40px;
+   width: 100%;
+   height: 100%; 
+  background-color: #f3f1f2;
+  /* border: 2px solid red; */
+  border-radius:50%;
 }
 
 #office-p {
@@ -71,3 +81,22 @@ h1 {
   font-size: 500%;
   font-weight: bold;
 }
+
+.card-img-top{
+  background-color: rgb(54, 134, 205);
+  
+  /* border-radius: 50%; */
+  width: 30%;
+  height: 30%;
+  padding: 20px;
+}
+.inventory{
+  font-size: 42px;
+}
+/* .icon
+{
+  height: 100%;
+  width: 100%;
+
+} */
+
