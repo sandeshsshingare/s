@@ -277,9 +277,9 @@ h1 {
   /* margin-left: 12px;
   margin-right: 12px; */
   /* background-color: red; */
-  border-radius: 40px;
 }
 .accordion-round1 {
+  border-radius: 40px;
   border: none;
   background-color: red;
   text-align: center;
@@ -292,4 +292,14 @@ h1 {
   font-size: 16px;
   font-weight: bold;
   color: black;
+}
+.accordion-button:not(.collapsed) {
+  color: black !important;
+  background-color: white !important;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("https://lh3.googleusercontent.com/uNu-9rtn3yJ5qUl6nE7t9Rf0RD5PwCDi7_7qeWdgOzQeD_z1a9QNX7qFI83oRpUAfUwpUM8v7STV7gAdGlSo1eu6=w128-h128-e365-rj-sc0x00ffffff") !important;
+}
+.accordion-button::after {
+  background-image: url("https://lh3.googleusercontent.com/uNu-9rtn3yJ5qUl6nE7t9Rf0RD5PwCDi7_7qeWdgOzQeD_z1a9QNX7qFI83oRpUAfUwpUM8v7STV7gAdGlSo1eu6=w128-h128-e365-rj-sc0x00ffffff") !important;
 }
