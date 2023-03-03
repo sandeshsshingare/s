@@ -2,20 +2,13 @@
   margin-top: 5px;
 }
 
-/* .start {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  background-color: #32bdd0;
-  color: white;
-  border-radius: 8px;
-} */
-
-/* #second {
-  display: flex;
-  flex-direction: row;
-} */
+#second {
+  background-image: url("HomeBackground.svg");
+  padding-bottom: 50px;
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+}
 .second-left {
   /* padding-top: 200px;
     padding-bottom: 200px;
@@ -31,17 +24,25 @@
   font-size: larger;
 }
 .second-start {
-  background-color: #3bb9d5;
+  background-color: #6990ff;
   padding: 15px 30px 15px 30px;
   border-radius: 5px;
   color: white;
 }
+
+.hero_img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 #f-image {
-  width: 100%;
-  height: 100%;
-  background-color: #f3f1f2;
+  background-image: url("hero_img_bg.png");
+  /* margin: 0px 50px -200px -100px; */
   /* border: 2px solid red; */
-  border-radius: 50%;
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 8%;
+  /* border: 2px solid red; */
 }
 
 #office-p {
@@ -153,6 +154,12 @@ h1 {
 }
 
 @media screen and (max-width: 450px) {
+  .second-left {
+    order: 2;
+  }
+  .second-right {
+    order: 1;
+  }
   .section-fifth {
     margin-right: 0;
     margin-left: 0;
@@ -167,7 +174,6 @@ h1 {
   .fourth-left {
     height: 1000px;
     width: 1000px;
-    background-color: red;
   }
   .navbar {
     display: flex;
@@ -185,6 +191,12 @@ h1 {
 }
 
 @media screen and (max-width: 1050px) {
+  .second-left {
+    order: 2;
+  }
+  .second-right {
+    order: 1;
+  }
   .nav-list {
     display: none;
   }
@@ -198,7 +210,6 @@ h1 {
   .fourth-left {
     height: 100%;
     width: 100%;
-    background-color: red;
   }
 }
 .retail-p {
@@ -222,8 +233,63 @@ h1 {
 .silver {
   font-size: 20px;
   font-weight: bold;
-  padding-top: 100%;
 }
 .pricing-padding {
-  padding-right: 170px;
+  margin-right: 150px;
+  background-color: red;
+}
+
+.pricing-corner {
+}
+
+.pricing-cards {
+  background-image: url("feature_bg.svg");
+}
+.card-color {
+  background-color: white;
+  border-radius: 10px;
+}
+/* ninth section Testimonials */
+
+.testimonials {
+  background: linear-gradient(257.51deg, #f2fcfe 44.07%, #faf1fe 100%);
+}
+* {
+  box-sizing: border-box;
+}
+.client {
+  background-image: url("feature_bg.svg");
+  padding-bottom: 100px;
+}
+
+.client-img {
+  background-color: #6990ff;
+  border-radius: 10px;
+}
+.client-padding {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.question {
+  background: linear-gradient(257.51deg, #f2fcfe 44.07%, #faf1fe 100%);
+}
+.question-accordian {
+  /* margin-left: 12px;
+  margin-right: 12px; */
+  /* background-color: red; */
+  border-radius: 40px;
+}
+.accordion-round1 {
+  border: none;
+  background-color: red;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  /* padding: 22px 60px 22px 30px; */
+}
+
+.frequent-Q {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
 }
