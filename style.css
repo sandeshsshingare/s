@@ -39,8 +39,8 @@
   background-image: url("hero_img_bg.png");
   /* margin: 0px 50px -200px -100px; */
   /* border: 2px solid red; */
-  max-width: 100%;
-  max-height: 100%;
+  /* max-width: 100%;
+  max-height: 100%; */
   margin-top: 8%;
   /* border: 2px solid red; */
 }
@@ -153,12 +153,15 @@ h1 {
   display: none;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 1000px) {
   .second-left {
     order: 2;
   }
   .second-right {
     order: 1;
+  }
+  .logo{
+    padding: 0px;
   }
   .section-fifth {
     margin-right: 0;
@@ -179,24 +182,13 @@ h1 {
   .navbar {
     display: flex;
   }
-  .second-left {
-    order: 2;
-  }
-  .second-right {
-    order: 1;
-  }
+ 
   .seven-second {
     order: 1;
-    display: flex;navbar
-  }
-  .nav-list {
-    display: none;
-    position: stick;
-  }
-  .seven-second {
     display: flex;
-    flex-direction: column;
   }
+ 
+
   .toggle-hide {
     display: block;
   }
@@ -204,6 +196,31 @@ h1 {
     height: 100%;
     width: 100%;
   }
+}
+@media screen and (max-width:1200px) {
+  .inventory-1200{
+    margin: 0px;
+  }
+  .inventory-cards-1200{
+    /* margin: 0px; */
+   
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(231, 14, 14); */
+  }
+  
+}
+@media screen and (max-width: 576px) {
+    .other-point{
+      order: 2;
+    }
+    .other-point-img{
+      order: 1;
+    }
+    .other-noflex{
+      display: flex;
+      flex-direction: column;
+    }
 }
 .retail-p {
   font-size: 20px;
@@ -214,7 +231,7 @@ h1 {
   /* padding: 20px 15px 20px 15px; */
   padding-left: 0px;
   padding-right: 0px;
-  background-color: #faf9f9;
+  /* background-color: #e61616; */
   margin-left: 10px;
 }
 
@@ -333,4 +350,14 @@ h1 {
   color:white;
   font-size: 20px;
  
+}
+.retaillogo{
+  
+    /* display: block; */
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  /* background-color: red; */
+  
+  
 }
