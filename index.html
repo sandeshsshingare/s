@@ -21,36 +21,44 @@
 
   <body>
     <!-- <div class="container-fluid"> -->
-    <div>
-      <div
-        class="div navbar px-5 container-fluid pt-0 pb-0 bg-light fixed-top"
-        id="id1"
-      >
-        <img class="logo px-5" src="logo.svg" alt="Logo" />
-        <div class="nav-list">
-          <ul class="list-unstyled d-flex navbar-items">
-            <li class="p-4">Home</li>
-            <li class="p-4">About</li>
-            <li class="p-4">Feature</li>
-            <li class="p-4">Pricing</li>
-            <li class="p-4">News</li>
-            <li class="p-4">Contact</li>
-          </ul>
+
+    <div
+      class="div navbar px-5 container-fluid pt-0 pb-0 bg-light fixed-top"
+      id="id1"
+    >
+      <div class="row">
+        <div class="col">
+          <img class="logo px-5" src="logo.svg" alt="Logo" />
         </div>
-        <div class="d-flex">
-          <button class="btn">Login</button>
-          <button class="btn btn-info btn-color-white start">
-            Start For Free
-          </button>
-          <div class="div toggle-hide">
-            <button class="btn" onclick="toggle()">
-              <span class="material-symbols-outlined"> menu </span>
+        <div class="col">
+          <div class="nav-list">
+            <ul class="list-unstyled d-flex navbar-items">
+              <li class="p-4">Home</li>
+              <li class="p-4">About</li>
+              <li class="p-4">Feature</li>
+              <li class="p-4">Pricing</li>
+              <li class="p-4">News</li>
+              <li class="p-4">Contact</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div class="d-flex">
+            <button class="btn">Login</button>
+            <button class="btn btn-info btn-color-white start px-3">
+              Start For Free
             </button>
+            <div class="div toggle-hide px-3">
+              <button class="btn" onclick="toggle()">
+                <span class="material-symbols-outlined"> menu </span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <ul class="list-unstyled droplist bg-light mt-4 pt-5" id="droplist">
+
+    <ul class="list-unstyled droplist bg-light mt-5 fixed-top" id="droplist">
       <li class="p-4">Home</li>
       <li class="p-4">About</li>
       <li class="p-4">Feature</li>
@@ -58,6 +66,7 @@
       <li class="p-4">News</li>
       <li class="p-4">Contact</li>
     </ul>
+
     <!-- second section starts -->
     <div class="" id="second">
       <div class="row">
@@ -78,16 +87,16 @@
     </div>
 
     <!--third section starts-->
-    <div class="div bg-third">
+    <div class="div bg-third inventory-1200">
       <div class="div">
         <p id="office-p">Office & Inventory</p>
         <h2 class="font-weight-bold text-center inventory">
           Our Best Inventory
         </h2>
       </div>
-      <div class="div d-flex justify-content-center">
+      <div class="div">
         <div class="row">
-          <div class="col">
+          <div class="col-sm-12 col-lg-6 col-xl-3 inventory-cards-1200">
             <div class="div third-cards rounded-50 ms-4">
               <div class="card rounded mt-4" style="width: 18rem">
                 <div
@@ -105,7 +114,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-sm-12 col-lg-6 col-xl-3 inventory-cards-1200">
             <div class="div ms-4">
               <div class="card rounded" style="width: 18rem">
                 <div
@@ -127,7 +136,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-sm-12 col-lg-6 col-xl-3 inventory-cards-1200">
             <div class="div ms-4">
               <div class="card mt-4 rounded" style="width: 18rem">
                 <div
@@ -150,7 +159,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-sm-12 col-lg-6 col-xl-3 inventory-cards-1200">
             <div class="div ms-4">
               <div class="card rounded" style="width: 18rem">
                 <div
@@ -182,10 +191,7 @@
         <div
           class="col-md-12 col-sm-12 col-lg-6 col-xl-6 mt-4 mb-5 fourth-left"
         >
-          <img
-            src="icons/about_img_1 (1).png"
-            class="fourth-left d-flex justify-content-center"
-          />
+          <img src="icons/about_img_1 (1).png" class="fourth-left" />
         </div>
         <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6 mb-5 fourth-right">
           <p id="about-the-pose">About the pose</p>
@@ -201,8 +207,8 @@
             passages.<br />
           </p>
 
-          <div class="div d-flex">
-            <div class="div">
+          <div class="div d-flex other-noflex">
+            <div class="div other-point">
               <div class="div d-flex">
                 <div class="div">
                   <img src="icons/tick.svg" />
@@ -230,7 +236,7 @@
                 </div>
               </div>
             </div>
-            <div class="div mx-4 mt-1">
+            <div class="div mx-4 mt-1 other-point-img">
               <img src="icons/about_img_2.png" />
             </div>
           </div>
@@ -240,65 +246,63 @@
 
     <!-- Fifth section starts -->
     <div class="div section-fifth container">
-      <div class="row d-flex justify-content-center">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 col-sm-12 fifth-line">
-            <div class="col-2 ms-4">
-              <div class="div d-flex">
-                <div
-                  class="div bg-white align-self-start mt-4 mx-4 rounded-circle sixth-images"
-                >
-                  <img class="" src="Fifth section/funfact_icon_1.svg" />
-                </div>
-                <div class="div">
-                  <p class="fifth-number mx-1">320+</p>
-                  <p class="fifth-txt mx-1 mt-0">Retail stores</p>
-                </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12 fifth-line">
+          <div class="col-2 ms-4">
+            <div class="div d-flex">
+              <div
+                class="div bg-white align-self-start mt-4 mx-4 rounded-circle sixth-images"
+              >
+                <img class="" src="Fifth section/funfact_icon_1.svg" />
+              </div>
+              <div class="div">
+                <p class="fifth-number mx-1">320+</p>
+                <p class="fifth-txt mx-1 mt-0">Retail stores</p>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12 fifth-line">
-            <div class="col-2 ms-4">
-              <div class="div d-flex">
-                <div
-                  class="div bg-white align-self-start mt-4 mx-4 rounded-circle sixth-images"
-                >
-                  <img class="" src="Fifth section/funfact_icon_2.svg" />
-                </div>
-                <div class="div">
-                  <p class="fifth-number mx-1">92K</p>
-                  <p class="fifth-txt mx-1 mt-0">Customer</p>
-                </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 fifth-line">
+          <div class="col-2 ms-4">
+            <div class="div d-flex">
+              <div
+                class="div bg-white align-self-start mt-4 mx-4 rounded-circle sixth-images"
+              >
+                <img class="" src="Fifth section/funfact_icon_2.svg" />
+              </div>
+              <div class="div">
+                <p class="fifth-number mx-1">92K</p>
+                <p class="fifth-txt mx-1 mt-0">Customer</p>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12 fifth-line">
-            <div class="col-2 ms-4">
-              <div class="div d-flex">
-                <div
-                  class="div bg-white align-self-start mt-4 mx-4 rounded-circle sixth-images"
-                >
-                  <img class="" src="Fifth section/funfact_icon_3.svg" />
-                </div>
-                <div class="div">
-                  <p class="fifth-number mx-1">5K</p>
-                  <p class="fifth-txt mx-1 mt-0">Positive rating</p>
-                </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 fifth-line">
+          <div class="col-2 ms-4">
+            <div class="div d-flex">
+              <div
+                class="div bg-white align-self-start mt-4 mx-4 rounded-circle sixth-images"
+              >
+                <img class="" src="Fifth section/funfact_icon_3.svg" />
+              </div>
+              <div class="div">
+                <p class="fifth-number mx-1">5K</p>
+                <p class="fifth-txt mx-1 mt-0">Positive rating</p>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="col-2 ms-4">
-              <div class="div d-flex">
-                <div
-                  class="div bg-white align-self-start mt-4 mx-4 rounded-circle sixth-images"
-                >
-                  <img class="" src="Fifth section/funfact_icon_4.svg" />
-                </div>
-                <div class="div">
-                  <p class="fifth-number mx-1">20+</p>
-                  <p class="fifth-txt mx-1 mt-0">Award wining</p>
-                </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="col-2 ms-4">
+            <div class="div d-flex">
+              <div
+                class="div bg-white align-self-start mt-4 mx-4 rounded-circle sixth-images"
+              >
+                <img class="" src="Fifth section/funfact_icon_4.svg" />
+              </div>
+              <div class="div">
+                <p class="fifth-number mx-1">20+</p>
+                <p class="fifth-txt mx-1 mt-0">Award wining</p>
               </div>
             </div>
           </div>
@@ -314,7 +318,7 @@
       </div>
       <div class="div sixth-card mt-5 container">
         <div class="row d-flex justify-content-center">
-          <div class="col border-round col-sm-6 col-md-6 col-lg-4 col-xl-4">
+          <div class="border-round col-sm-12 col-md-12 col-lg-6 col-xl-4">
             <div class="card mb-3 p-2" style="max-width: 540px">
               <div class="row g-0">
                 <div class="col-md-4">
@@ -340,7 +344,7 @@
               </div>
             </div>
           </div>
-          <div class="col border-round col-sm-6 col-md-6 col-lg-4 col-xl-4">
+          <div class="border-round col-sm-12 col-md-12 col-lg-6 col-xl-4">
             <div class="card mb-3 p-2" style="max-width: 540px">
               <div class="row g-0">
                 <div class="col-md-4">
@@ -362,7 +366,7 @@
               </div>
             </div>
           </div>
-          <div class="col border-round col-sm-6 col-md-6 col-lg-4 col-xl-4">
+          <div class="border-round col-sm-12 col-md-12 col-lg-6 col-xl-4">
             <div class="card mb-3 p-2" style="max-width: 540px">
               <div class="row g-0">
                 <div class="col-md-4">
@@ -388,10 +392,7 @@
               </div>
             </div>
           </div>
-        </div>
-
-        <div class="row d-flex justify-content-center">
-          <div class="col col-sm-6 col-md-6 col-lg-4 col-xl-4">
+          <div class="border-round col-sm-12 col-md-12 col-lg-6 col-xl-4">
             <div class="card mb-3 p-2" style="max-width: 540px">
               <div class="row g-0">
                 <div class="col-md-4">
@@ -417,7 +418,7 @@
               </div>
             </div>
           </div>
-          <div class="col col-sm-6 col-md-6 col-lg-4 col-xl-4">
+          <div class="border-round col-sm-12 col-md-12 col-lg-6 col-xl-4">
             <div class="card mb-3 p-2" style="max-width: 540px">
               <div class="row g-0">
                 <div class="col-md-4">
@@ -443,7 +444,7 @@
               </div>
             </div>
           </div>
-          <div class="col col-sm-6 col-md-6 col-lg-4 col-xl-4">
+          <div class="border-round col-sm-12 col-md-12 col-lg-6 col-xl-4">
             <div class="card mb-3 p-2" style="max-width: 540px">
               <div class="row g-0">
                 <div class="col-md-4">
@@ -470,6 +471,8 @@
             </div>
           </div>
         </div>
+
+        <div class="row d-flex justify-content-center"></div>
       </div>
     </div>
 
@@ -487,57 +490,63 @@
 
     <!-- 2nd part -->
 
-    <div class="div d-flex seven-second align-items-center">
-      <div class="div p-4">
-        <img src="retails/retail-store.png" />
-      </div>
-      <div class="div mx-4" style="width: 100%">
-        <div class="row-sm-12 row-md-12 d-flex mb-3 ms-5">
-          <div
-            class="col retail-col d-flex align-items-center justify-content-center"
-            style="border-radius: 20px"
-          >
-            <img src="retails/retail_icon_1.svg" class="py-4" />
-            <p class="px-3 retail-p">Food Dilevery</p>
-          </div>
-          <div
-            class="col retail-col d-flex align-items-center justify-content-center"
-            style="border-radius: 20px"
-          >
-            <img src="retails/retail_icon_2.svg" />
-            <p class="px-3 retail-p">Cycle Store</p>
+    <div class="div text-center seven-second">
+      <div class="row">
+        <div class="col-sm-12 col-lg-6 col-xl-6 img-fluid">
+          <div class="div p-4">
+            <img src="retails/retail-store.png" class="retaillogo" />
           </div>
         </div>
-        <div class="row-sm-12 row-md-12 d-flex mb-3 me-5">
-          <div
-            class="col retail-col d-flex align-items-center justify-content-center"
-            style="border-radius: 20px"
-          >
-            <img src="retails/retail_icon_3.svg" class="py-4" />
-            <p class="px-3 retail-p">Gift Shop</p>
-          </div>
-          <div
-            class="col retail-col d-flex align-items-center justify-content-center"
-            style="border-radius: 20px"
-          >
-            <img src="retails/retail_icon_4.svg" />
-            <p class="px-3 retail-p">Furniture Store</p>
-          </div>
-        </div>
-        <div class="row-sm-12 row-md-12 d-flex mb-3 ms-5">
-          <div
-            class="col retail-col d-flex align-items-center justify-content-center"
-            style="border-radius: 20px"
-          >
-            <img src="retails/retail_icon_5.svg" class="py-4" />
-            <p class="px-3 retail-p">Clothing Store</p>
-          </div>
-          <div
-            class="col retail-col d-flex align-items-center justify-content-center"
-            style="border-radius: 20px"
-          >
-            <img src="retails/retail_icon_6.svg" />
-            <p class="px-3 retail-p">Coffee Shop</p>
+        <div class="col-sm-12 col-lg-6 col-xl-6">
+          <div class="div mx-4" style="width: 100%">
+            <div class="row-sm-12 row-md-12 mb-3 ms-5">
+              <div
+                class="col-sm-12 col-lg-5 col-xl-5 retail-col d-flex align-items-center justify-content-center py-4"
+                style="border-radius: 20px"
+              >
+                <img src="retails/retail_icon_1.svg" class="py-4" />
+                <p class="px-3 retail-p">Food Dilevery</p>
+              </div>
+              <div
+                class="col-sm-12 col-lg-6 col-xl-6 retail-col d-flex align-items-center justify-content-center py-4"
+                style="border-radius: 20px"
+              >
+                <img src="retails/retail_icon_2.svg" />
+                <p class="px-3 retail-p">Cycle Store</p>
+              </div>
+            </div>
+            <div class="row-sm-12 row-md-12 mb-3 me-5">
+              <div
+                class="col-sm-12 col-lg-6 col-xl-6 retail-col d-flex align-items-center justify-content-center"
+                style="border-radius: 20px"
+              >
+                <img src="retails/retail_icon_3.svg" class="py-4" />
+                <p class="px-3 retail-p">Gift Shop</p>
+              </div>
+              <div
+                class="col-sm-12 col-lg-6 col-xl-6 retail-col d-flex align-items-center justify-content-center py-4"
+                style="border-radius: 20px"
+              >
+                <img src="retails/retail_icon_4.svg" />
+                <p class="px-3 retail-p">Furniture Store</p>
+              </div>
+            </div>
+            <div class="row-sm-12 row-md-12 mb-3 ms-5">
+              <div
+                class="col-sm-12 col-lg-6 col-xl-6 retail-col d-flex align-items-center justify-content-center"
+                style="border-radius: 20px"
+              >
+                <img src="retails/retail_icon_5.svg" class="py-4" />
+                <p class="px-3 retail-p">Clothing Store</p>
+              </div>
+              <div
+                class="col-sm-12 col-lg-6 col-xl-6 retail-col d-flex align-items-center justify-content-center py-4"
+                style="border-radius: 20px"
+              >
+                <img src="retails/retail_icon_6.svg" />
+                <p class="px-3 retail-p">Coffee Shop</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -557,7 +566,7 @@
       <!-- cards -->
       <div>
         <div class="row justify-content-center">
-          <div class="col-3 mx-3 card-color">
+          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 mx-3 card-color">
             <div class="div pt-4 px-4">
               <div class="div d-flex justify-content-start">
                 <div class="div rounded-circle bg-light p-3">
@@ -603,7 +612,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3 mx-3 card-color">
+          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 mx-3 card-color">
             <div class="div pt-4 px-4">
               <div class="div d-flex justify-content-start">
                 <div class="div rounded-circle bg-light p-3">
@@ -649,7 +658,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3 mx-3 card-color">
+          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 mx-3 card-color">
             <div class="div pt-4 px-4">
               <div class="div d-flex justify-content-start">
                 <div class="div rounded-circle bg-light p-3">
@@ -868,12 +877,14 @@
       <!-- 2nd part -->
       <div class="div">
         <div class="row">
-          <div class="col-6 d-flex justify-content-center text-align-center">
+          <div
+            class="col-sm-12 col-lg-6 col-xl-6 d-flex justify-content-center text-align-center"
+          >
             <div class="div">
               <img src="questions/faq_img.png" />
             </div>
           </div>
-          <div class="col-5">
+          <div class="col-sm-12 col-lg-5 col-xl-5">
             <div class="div question-accordian">
               <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item accordion-round1 my-4">
@@ -887,8 +898,10 @@
                       aria-controls="flush-collapseOne"
                     >
                       <p class="frequent-Q">
-                        <span class="frequent-sr">Q1.</span> What is a point of
-                        sale?
+                        <span class="frequent-sr"
+                          ><span style="color: #6990ff">Q1.</span></span
+                        >
+                        What is a point of sale?
                       </p>
                     </button>
                   </h2>
@@ -917,8 +930,10 @@
                       aria-controls="flush-collapseTwo"
                     >
                       <p class="frequent-Q">
-                        <span class="frequent-sr">Q2.</span> What is the best
-                        POS system?
+                        <span class="frequent-sr"
+                          ><span style="color: #6990ff">Q2.</span></span
+                        >
+                        What is the best POS system?
                       </p>
                     </button>
                   </h2>
@@ -947,8 +962,10 @@
                       aria-controls="flush-collapseThree"
                     >
                       <p class="frequent-Q">
-                        <span class="frequent-sr">Q3.</span> How does a POS
-                        system work?
+                        <span class="frequent-sr"
+                          ><span style="color: #6990ff">Q3.</span></span
+                        >
+                        How does a POS system work?
                       </p>
                     </button>
                   </h2>
@@ -977,8 +994,10 @@
                       aria-controls="flush-collapseFour"
                     >
                       <p class="frequent-Q">
-                        <span class="frequent-sr">Q4.</span> How to use a POS
-                        System?
+                        <span class="frequent-sr"
+                          ><span style="color: #6990ff">Q4.</span></span
+                        >
+                        How to use a POS System?
                       </p>
                     </button>
                   </h2>
@@ -1007,8 +1026,10 @@
                       aria-controls="flush-collapseFive"
                     >
                       <p class="frequent-Q">
-                        <span class="frequent-sr">Q5.</span> How can i make a
-                        payment?
+                        <span class="frequent-sr"
+                          ><span style="color: #6990ff">Q5.</span></span
+                        >
+                        How can i make a payment?
                       </p>
                     </button>
                   </h2>
@@ -1046,7 +1067,7 @@
         <div
           class="row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-center"
         >
-          <div class="col-3">
+          <div class="col-sm-12 col-lg-6 col-xl-3">
             <div class="card">
               <img src="news/post_1.jpeg" class="rounded" alt="..." />
               <div class="card-body">
@@ -1066,7 +1087,9 @@
                       ></path>
                     </svg>
                   </li>
-                  <li class="px-1 text-muted"><p>admin</p></li>
+                  <li class="px-1 text-muted">
+                    <p>admin</p>
+                  </li>
                   <div class="div d-flex ps-5">
                     <li>
                       <svg
@@ -1109,7 +1132,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-sm-12 col-lg-6 col-xl-3">
             <div class="card">
               <img src="news/post_2.jpeg" class="rounded" alt="..." />
               <div class="card-body">
@@ -1129,7 +1152,9 @@
                       ></path>
                     </svg>
                   </li>
-                  <li class="px-1 text-muted"><p>admin</p></li>
+                  <li class="px-1 text-muted">
+                    <p>admin</p>
+                  </li>
                   <div class="div d-flex ps-5">
                     <li>
                       <svg
@@ -1172,7 +1197,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-sm-12 col-lg-6 col-xl-3">
             <div class="card">
               <img src="news/post_3.jpeg" class="rounded" alt="..." />
               <div class="card-body">
@@ -1192,7 +1217,9 @@
                       ></path>
                     </svg>
                   </li>
-                  <li class="px-1 text-muted"><p>admin</p></li>
+                  <li class="px-1 text-muted">
+                    <p>admin</p>
+                  </li>
                   <div class="div d-flex ps-5">
                     <li>
                       <svg
@@ -1235,7 +1262,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3">
+          <div class="col-sm-12 col-lg-6 col-xl-3">
             <div class="card">
               <img src="news/post_4.jpeg" class="rounded" alt="..." />
               <div class="card-body">
@@ -1255,7 +1282,9 @@
                       ></path>
                     </svg>
                   </li>
-                  <li class="px-1 text-muted"><p>admin</p></li>
+                  <li class="px-1 text-muted">
+                    <p>admin</p>
+                  </li>
                   <div class="div d-flex ps-5">
                     <li>
                       <svg
@@ -1358,14 +1387,14 @@
             <div class="div contact-second">
               <p class="frequent-Q text-start">Please fill up the form</p>
               <div class="row">
-                <div class="col">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                   <input
                     type="text"
                     placeholder="name"
                     class="form-control phone-no bg-white p-3"
                   />
                 </div>
-                <div class="col">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                   <input
                     type="text"
                     placeholder="email address"
@@ -1374,7 +1403,7 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col mt-2">
+                <div class="col-sm-12 col-lg-12 col-xl-12 col-lx mt-2">
                   <input
                     type="text"
                     placeholder="phone no"
@@ -1384,11 +1413,11 @@
               </div>
 
               <div class="row mt-2">
-                <div class="col-12">
+                <div class="col-sm-12 col-lg-12 col-xl-12 col-lx-12">
                   <textarea
-                    cols="62"
-                    rows="5"
-                    class="phone-no"
+                  style="width:100%; height:100%"
+                    
+                    class="phone-no bg-danger rounded pt-2"
                     placeholder="Write your massage"
                   ></textarea>
                 </div>
@@ -1410,7 +1439,7 @@
     <div class="div footer-section">
       <div class="div container">
         <div class="row">
-          <div class="col">
+          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-3">
             <div class="div">
               <img src="logo_footer.svg" class="" />
               <p class="onftr pt-3">
@@ -1424,7 +1453,7 @@
               </div>
             </div>
           </div>
-          <div class="col px-5">
+          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-3 px-5">
             <p class="availabel">Available POS</p>
             <ul class="list-unstyled onftr">
               <li>Food Delivery</li>
@@ -1434,7 +1463,7 @@
               <li>eCommerce</li>
             </ul>
           </div>
-          <div class="col px-5">
+          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-3 px-5">
             <p class="availabel">Company</p>
             <ul class="list-unstyled onftr">
               <li>Features</li>
@@ -1443,7 +1472,7 @@
               <li>Terms of Use</li>
             </ul>
           </div>
-          <div class="col px-5">
+          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-3 px-5">
             <p class="availabel">Suscribe US</p>
             <p class="onftr mb-3">
               Get Business news, tip and solutions to your problems from our

@@ -39,8 +39,8 @@
   background-image: url("hero_img_bg.png");
   /* margin: 0px 50px -200px -100px; */
   /* border: 2px solid red; */
-  max-width: 100%;
-  max-height: 100%;
+  /* max-width: 100%;
+  max-height: 100%; */
   margin-top: 8%;
   /* border: 2px solid red; */
 }
@@ -153,12 +153,15 @@ h1 {
   display: none;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 1000px) {
   .second-left {
     order: 2;
   }
   .second-right {
     order: 1;
+  }
+  .logo {
+    padding: 0px;
   }
   .section-fifth {
     margin-right: 0;
@@ -179,30 +182,42 @@ h1 {
   .navbar {
     display: flex;
   }
-  .second-left {
-    order: 2;
-  }
-  .second-right {
-    order: 1;
-  }
+
   .seven-second {
     order: 1;
-    display: flex;navbar
-  }
-  .nav-list {
-    display: none;
-    position: stick;
-  }
-  .seven-second {
     display: flex;
-    flex-direction: column;
   }
+
   .toggle-hide {
     display: block;
   }
   .fourth-left {
     height: 100%;
     width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .inventory-1200 {
+    margin: 0px;
+  }
+  .inventory-cards-1200 {
+    /* margin: 0px; */
+
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(231, 14, 14); */
+  }
+}
+@media screen and (max-width: 576px) {
+  .other-point {
+    order: 2;
+  }
+  .other-point-img {
+    order: 1;
+  }
+  .other-noflex {
+    display: flex;
+    flex-direction: column;
   }
 }
 .retail-p {
@@ -214,7 +229,7 @@ h1 {
   /* padding: 20px 15px 20px 15px; */
   padding-left: 0px;
   padding-right: 0px;
-  background-color: #faf9f9;
+  /* background-color: #e61616; */
   margin-left: 10px;
 }
 
@@ -231,7 +246,7 @@ h1 {
   margin-right: 150px;
 }
 .pricing-cards {
-   background-image: url("feature_bg.svg");
+  background-image: url("feature_bg.svg");
 }
 .card-color {
   background-color: white;
@@ -266,71 +281,75 @@ h1 {
   background-color: white !important;
 }
 .accordion-button:not(.collapsed)::after {
-  background-image: url('https://lh3.googleusercontent.com/uNu-9rtn3yJ5qUl6nE7t9Rf0RD5PwCDi7_7qeWdgOzQeD_z1a9QNX7qFI83oRpUAfUwpUM8v7STV7gAdGlSo1eu6=w128-h128-e365-rj-sc0x00ffffff') !important;
+  background-image: url("https://lh3.googleusercontent.com/uNu-9rtn3yJ5qUl6nE7t9Rf0RD5PwCDi7_7qeWdgOzQeD_z1a9QNX7qFI83oRpUAfUwpUM8v7STV7gAdGlSo1eu6=w128-h128-e365-rj-sc0x00ffffff") !important;
 }
 .accordion-button::after {
-  background-image: url('https://lh3.googleusercontent.com/uNu-9rtn3yJ5qUl6nE7t9Rf0RD5PwCDi7_7qeWdgOzQeD_z1a9QNX7qFI83oRpUAfUwpUM8v7STV7gAdGlSo1eu6=w128-h128-e365-rj-sc0x00ffffff') !important;
+  background-image: url("https://lh3.googleusercontent.com/uNu-9rtn3yJ5qUl6nE7t9Rf0RD5PwCDi7_7qeWdgOzQeD_z1a9QNX7qFI83oRpUAfUwpUM8v7STV7gAdGlSo1eu6=w128-h128-e365-rj-sc0x00ffffff") !important;
 }
-.frequent-Q{
+.frequent-Q {
   font-size: 20px;
   font-weight: bold;
   /* background-color: red; */
 }
 
 /* news starts */
-.news{
+.news {
   background-image: url("feature_bg.svg");
 }
- /* contact starts */
- .contact{
-  background: linear-gradient(257.51deg, #F2FCFE 44.07%, #FAF1FE 100%);
+/* contact starts */
+.contact {
+  background: linear-gradient(257.51deg, #f2fcfe 44.07%, #faf1fe 100%);
   /* background-color: red; */
-  padding-top: 100px ;
+  padding-top: 100px;
   padding-bottom: 100px;
- }
-.contact-first{
+}
+.contact-first {
   /* background-color: #6990ff; */
 }
-.logo-color{
-  color:#98dedd;
+.logo-color {
+  color: #98dedd;
 }
-.muted-color{
+.muted-color {
   color: #6c747f;
 }
-.address{
+.address {
   font-size: 16px;
   font-weight: bold;
   color: black;
 }
-.phone-no
-{
+.phone-no {
   margin-top: 20px;
   /* border-radius: 10px; */
   border: none;
-
 }
-.send-message{
+.send-message {
   background-color: #6990ff;
   color: white;
-   border-radius: 7px ;
+  border-radius: 7px;
 }
 
 /* footer section starts */
-.footer-section{
+.footer-section {
   padding-top: 100px;
   padding-bottom: 50pxpx;
   background-color: #1c2528;
 }
-.onftr{
-  color:#c7d6ce;
+.onftr {
+  color: #c7d6ce;
 }
-.availabel{
+.availabel {
   color: white;
   font-size: 20px;
   font-weight: bold;
 }
-.suscribe-ftr{
-  color:white;
+.suscribe-ftr {
+  color: white;
   font-size: 20px;
- 
+}
+.retaillogo {
+  /* display: block; */
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  /* background-color: red; */
 }
