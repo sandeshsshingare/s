@@ -1,230 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Static Web Designing</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <script src="script.js" defer></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Static Web Designing</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-  <script src="script.js" defer></script>
-</head>
+  <body>
+    <!-- <div class="container-fluid"> -->
 
-<body>
-  <!-- <div class="container-fluid"> -->
-
-  <div class="div navbar px-5 container-fluid pt-0 pb-0 bg-light fixed-top" id="id1">
-    <div class="row">
-      <div class="col">
-        <img class="logo px-5" src="logo.svg" alt="Logo" />
-
-      </div>
-      <div class="col">
-        <div class="nav-list">
-          <ul class="list-unstyled d-flex navbar-items ">
-            <li class="p-4">Home</li>
-            <li class="p-4">About</li>
-            <li class="p-4">Feature</li>
-            <li class="p-4">Pricing</li>
-            <li class="p-4">News</li>
-            <li class="p-4">Contact</li>
-          </ul>
+    <div
+      class="div navbar px-5 container-fluid pt-0 pb-0 bg-light fixed-top"
+      id="id1"
+    >
+      <div class="row">
+        <div class="col">
+          <img class="logo px-5" src="logo.svg" alt="Logo" />
         </div>
-
-      </div>
-      <div class="col">
-        <div class="d-flex">
-          <button class="btn">Login</button>
-          <button class="btn btn-info btn-color-white start px-3">
-            Start For Free
-          </button>
-          <div class="div toggle-hide px-3">
-            <button class="btn" onclick="toggle()">
-              <span class="material-symbols-outlined"> menu </span>
+        <div class="col">
+          <div class="nav-list">
+            <ul class="list-unstyled d-flex navbar-items">
+              <li class="p-4">Home</li>
+              <li class="p-4">About</li>
+              <li class="p-4">Feature</li>
+              <li class="p-4">Pricing</li>
+              <li class="p-4">News</li>
+              <li class="p-4">Contact</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div class="d-flex">
+            <button class="btn">Login</button>
+            <button class="btn btn-info btn-color-white start px-3">
+              Start For Free
             </button>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-  <ul class="list-unstyled droplist bg-light mt-5  fixed-top" id="droplist">
-    <li class="p-4">Home</li>
-    <li class="p-4">About</li>
-    <li class="p-4">Feature</li>
-    <li class="p-4">Pricing</li>
-    <li class="p-4">News</li>
-    <li class="p-4">Contact</li>
-  </ul>
-
-  <!-- second section starts -->
-  <div class="" id="second">
-    <div class="row">
-      <div class="second-left col-12 col-lg-6 col-xl-6">
-        <p class="home-p">Free Forever For All Users.</p>
-        <h1>Easy-to-use <br />Point of Sale</h1>
-        <p class="home-You">
-          You may start selling in a matter of minutes and easy to<br />
-          use. Appropriate for all devices.
-        </p>
-
-        <button class="btn second-start">Start free trail</button>
-      </div>
-      <div class="second-right col-12 col-lg-6 col-xl-6" id="f-image">
-        <img src="hero_img.png" class="hero_img" alt="hero image" />
-      </div>
-    </div>
-  </div>
-
-  <!--third section starts-->
-  <div class="div bg-third inventory-1200">
-    <div class="div">
-      <p id="office-p">Office & Inventory</p>
-      <h2 class="font-weight-bold text-center inventory">
-        Our Best Inventory
-      </h2>
-    </div>
-    <div class="div ">
-      <div class="row ">
-        <div class="col-sm-12 col-lg-6 col-xl-3 inventory-cards-1200">
-          <div class="div third-cards rounded-50 ms-4">
-            <div class="card rounded mt-4" style="width: 18rem">
-              <div class="div sixth-images align-self-start mt-4 mx-4 rounded-circle">
-                <img src="icons/icon_box_1.svg" class="" />
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Recipe management & costing</h5>
-                <p class="card-text">
-                  Lorem Ipsum is simply dummy text of the printing andformal
-                  typesetting
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-6 col-xl-3 inventory-cards-1200">
-          <div class="div ms-4">
-            <div class="card rounded" style="width: 18rem">
-              <div class="div sixth-images align-self-start mt-4 mx-4 rounded-circle">
-                <img class="" src="icons/icon_box_2.svg" alt="Card image cap" />
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Stock management & inventory</h5>
-                <p class="card-text">
-                  Lorem Ipsum is simply dummy text of the printing andformal
-                  typesetting
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-6 col-xl-3 inventory-cards-1200">
-          <div class="div ms-4">
-            <div class="card mt-4 rounded" style="width: 18rem">
-              <div class="div sixth-images align-self-start mt-4 mx-4 rounded-circle">
-                <img class=" " src="icons/icon_box_3.svg" alt="Card image cap" />
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Purchase management system</h5>
-                <p class="card-text">
-                  Lorem Ipsum is simply dummy text of the printing andformal
-                  typesetting
-                </p>
-                gray
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-6 col-xl-3 inventory-cards-1200">
-          <div class="div ms-4">
-            <div class="card rounded" style="width: 18rem">
-              <div class="div align-self-start mt-4 mx-4 rounded-circle sixth-images">
-                <img class="" src="icons/icon_box_4.svg" alt="Card image cap" />
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Powerful inventory reporting</h5>
-                <p class="card-text">
-                  Lorem Ipsum is simply dummy text of the printing andformal
-                  typesetting
-                </p>
-              </div>
+            <div class="div toggle-hide px-3">
+              <button class="btn" onclick="toggle()">
+                <span class="material-symbols-outlined"> menu </span>
+              </button>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Fourth section starts -->
-  <div class="div" id="fourth-all">
-    <div class="row fourth-section">
-      <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6 mt-4 mb-5 fourth-left">
-        <img src="icons/about_img_1 (1).png" class="fourth-left" />
+    <ul class="list-unstyled droplist bg-light mt-5 fixed-top" id="droplist">
+      <li class="p-4">Home</li>
+      <li class="p-4">About</li>
+      <li class="p-4">Feature</li>
+      <li class="p-4">Pricing</li>
+      <li class="p-4">News</li>
+      <li class="p-4">Contact</li>
+    </ul>
+
+    <!-- second section starts -->
+    <div class="" id="second">
+      <div class="row">
+        <div class="second-left col-12 col-lg-6 col-xl-6">
+          <p class="home-p">Free Forever For All Users.</p>
+          <h1>Easy-to-use <br />Point of Sale</h1>
+          <p class="home-You">
+            You may start selling in a matter of minutes and easy to<br />
+            use. Appropriate for all devices.
+          </p>
+
+          <button class="btn second-start">Start free trail</button>
+        </div>
+        <div class="second-right col-12 col-lg-6 col-xl-6" id="f-image">
+          <img src="hero_img.png" class="hero_img" alt="hero image" />
+        </div>
       </div>
-      <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6 mb-5 fourth-right">
-        <p id="about-the-pose">About the pose</p>
-        <h3 class="font-weight-bold best">
-          Best solution for point of sale <br />about details
-        </h3>
-        <p class="home-You">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.<br />
-          Lorem Ipsum the & been the industry'grays. It was popularised in the
-          1960s<br />
-          with the release of Letraset sheets containing Lorem Ipsum
-          passages.<br />
-        </p>
+    </div>
 
-        <div class="div d-flex other-noflex">
-          <div class="div other-point">
-            <div class="div d-flex">
-              <div class="div">
-                <img src="icons/tick.svg" />
-              </div>
-              <div class="div mx-1">
-                <h4 class="other">Other point of sale information</h4>
-                <p class="home-You">
-                  But I must explain to you how all this mistaken in
-                  denouncing<br />
-                  pleasure and praising pain was born and I will give.
-                </p>
-              </div>
-            </div>
-            <div class="div d-flex">
-              <div class="div">
-                <img src="icons/tick.svg" />
-              </div>
-              <div class="div mx-2">
-                <h4 class="other">Best process system POS</h4>
-                <p class="home-You">
-                  At vero eos et accusamus et iusto odio dignissimos ducimus
-                  <br />
-                  qui blanditiis praesentium voluptatum deleniti at.
-                </p>
+    <!--third section starts-->
+    <div class="div bg-third inventory-1200">
+      <div class="div">
+        <p id="office-p">Office & Inventory</p>
+        <h2 class="font-weight-bold text-center inventory">
+          Our Best Inventory
+        </h2>
+      </div>
+      <div class="div container">
+        <div class="row">
+          <div class="col-sm-12 col-lg-6 col-xl-3 inventory-cards-1200">
+            <div class="div third-cards rounded-50 ms-4">
+              <div class="card rounded mt-4" style="width: 18rem">
+                <!-- <div class="div d-flex"> -->
+                <div class="row">
+                  <div class="col">
+                    <div
+                      class="div sixth-images align-self-start mt-4 mx-4 rounded-circle"
+                    >
+                      <img src="icons/icon_box_1.svg" class="" />
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="div d-flex inventory-number justify-content-end align-items-start"
+                    >
+                      01
+                    </div>
+                  </div>
+                </div>
+
+                <!-- </div> -->
+                <div class="card-body">
+                  <h5 class="card-title">Recipe management & costing</h5>
+                  <p class="card-text">
+                    Lorem Ipsum is simply dummy text of the printing andformal
+                    typesetting
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="div mx-4 mt-1 other-point-img">
-            <img src="icons/about_img_2.png" />
+          <div class="col-sm-12 col-lg-6 col-xl-3 inventory-cards-1200">
+            <div class="div ms-4">
+              <div class="card rounded" style="width: 18rem">
+                <div class="row">
+                  <div class="col">
+                    <div
+                      class="div sixth-images align-self-start mt-4 mx-4 rounded-circle"
+                    >
+                      <img src="icons/icon_box_2.svg" class="" />
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="div d-flex inventory-number justify-content-end align-items-start"
+                    >
+                      02
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Stock management & inventory</h5>
+                  <p class="card-text">
+                    Lorem Ipsum is simply dummy text of the printing andformal
+                    typesetting
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-6 col-xl-3 inventory-cards-1200">
+            <div class="div ms-4">
+              <div class="card mt-4 rounded" style="width: 18rem">
+                <div class="row">
+                  <div class="col">
+                    <div
+                      class="div sixth-images align-self-start mt-4 mx-4 rounded-circle"
+                    >
+                      <img src="icons/icon_box_3.svg" class="" />
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="div d-flex inventory-number justify-content-end align-items-start"
+                    >
+                      03
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Purchase management system</h5>
+                  <p class="card-text">
+                    Lorem Ipsum is simply dummy text of the printing andformal
+                    typesetting
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-6 col-xl-3 inventory-cards-1200">
+            <div class="div ms-4">
+              <div class="card rounded" style="width: 18rem">
+                <div class="row">
+                  <div class="col">
+                    <div
+                      class="div sixth-images align-self-start mt-4 mx-4 rounded-circle"
+                    >
+                      <img src="icons/icon_box_4.svg" class="" />
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="div d-flex inventory-number justify-content-end align-items-start"
+                    >
+                      04
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Powerful inventory reporting</h5>
+                  <p class="card-text">
+                    Lorem Ipsum is simply dummy text of the printing andformal
+                    typesetting
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Fifth section starts -->
-  <div class="div section-fifth container">
-   
+    <!-- Fourth section starts -->
+    <div class="div" id="fourth-all">
+      <div class="row fourth-section">
+        <div
+          class="col-md-12 col-sm-12 col-lg-6 col-xl-6 mt-4 mb-5 fourth-left"
+        >
+          <img src="icons/about_img_1 (1).png" class="fourth-left" />
+        </div>
+        <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6 mb-5 fourth-right">
+          <p id="about-the-pose">About the pose</p>
+          <h3 class="font-weight-bold best">
+            Best solution for point of sale <br />about details
+          </h3>
+          <p class="home-You">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.<br />
+            Lorem Ipsum the & been the industry'grays. It was popularised in the
+            1960s<br />
+            with the release of Letraset sheets containing Lorem Ipsum
+            passages.<br />
+          </p>
+
+          <div class="div d-flex other-noflex">
+            <div class="div other-point">
+              <div class="div d-flex">
+                <div class="div">
+                  <img src="icons/tick.svg" />
+                </div>
+                <div class="div mx-1">
+                  <h4 class="other">Other point of sale information</h4>
+                  <p class="home-You">
+                    But I must explain to you how all this mistaken in
+                    denouncing<br />
+                    pleasure and praising pain was born and I will give.
+                  </p>
+                </div>
+              </div>
+              <div class="div d-flex">
+                <div class="div">
+                  <img src="icons/tick.svg" />
+                </div>
+                <div class="div mx-2">
+                  <h4 class="other">Best process system POS</h4>
+                  <p class="home-You">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                    <br />
+                    qui blanditiis praesentium voluptatum deleniti at.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="div mx-4 mt-1 other-point-img">
+              <img src="icons/about_img_2.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fifth section starts -->
+    <div class="div section-fifth container">
       <div class="row">
         <div class="col-lg-3 col-md-6 col-sm-12 fifth-line">
           <div class="col-2 ms-4">
             <div class="div d-flex">
-              <div class="div bg-white align-self-start mt-4 mx-4 rounded-circle sixth-images">
+              <div
+                class="div bg-white align-self-start mt-4 mx-4 rounded-circle sixth-images"
+              >
                 <img class="" src="Fifth section/funfact_icon_1.svg" />
               </div>
               <div class="div">
@@ -237,7 +299,9 @@
         <div class="col-lg-3 col-md-6 col-sm-12 fifth-line">
           <div class="col-2 ms-4">
             <div class="div d-flex">
-              <div class="div bg-white align-self-start mt-4 mx-4 rounded-circle sixth-images">
+              <div
+                class="div bg-white align-self-start mt-4 mx-4 rounded-circle sixth-images"
+              >
                 <img class="" src="Fifth section/funfact_icon_2.svg" />
               </div>
               <div class="div">
@@ -250,7 +314,9 @@
         <div class="col-lg-3 col-md-6 col-sm-12 fifth-line">
           <div class="col-2 ms-4">
             <div class="div d-flex">
-              <div class="div bg-white align-self-start mt-4 mx-4 rounded-circle sixth-images">
+              <div
+                class="div bg-white align-self-start mt-4 mx-4 rounded-circle sixth-images"
+              >
                 <img class="" src="Fifth section/funfact_icon_3.svg" />
               </div>
               <div class="div">
@@ -263,7 +329,9 @@
         <div class="col-lg-3 col-md-6 col-sm-12">
           <div class="col-2 ms-4">
             <div class="div d-flex">
-              <div class="div bg-white align-self-start mt-4 mx-4 rounded-circle sixth-images">
+              <div
+                class="div bg-white align-self-start mt-4 mx-4 rounded-circle sixth-images"
+              >
                 <img class="" src="Fifth section/funfact_icon_4.svg" />
               </div>
               <div class="div">
@@ -274,428 +342,515 @@
           </div>
         </div>
       </div>
-    
-  </div>
-
-  <!--Sixth section starts -->
-  <div class="div sixth-section">
-    <div class="div text-center">
-      <p class="home-p">POS Feature</p>
-      <h4 class="font-weight-bold best">Available Features</h4>
     </div>
-    <div class="div sixth-card mt-5 container">
-      <div class="row d-flex justify-content-center">
-        <div class="border-round col-sm-12 col-md-12 col-lg-6 col-xl-4">
-          <div class="card mb-3 p-2" style="max-width: 540px">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <div class="div img-fluid sixth-images rounded-circle mx-4 mt-4">
-                  <img src="sixth cards/icon_box_5.svg" class="p-2" alt="..." />
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Lorem Ipsum is simply dummy text of the most printing and
-                    typese Ipsum is simply dummy
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="border-round col-sm-12 col-md-12 col-lg-6 col-xl-4">
-          <div class="card mb-3 p-2" style="max-width: 540px">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <div class="div img-fluid sixth-images rounded-circle mx-4 mt-4">
-                  <img src="sixth cards/icon_box_6.svg" class="" alt="..." />
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Lorem Ipsum is simply dummy text of the most printing and
-                    typese Ipsum is simply dummy
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="border-round col-sm-12 col-md-12 col-lg-6 col-xl-4">
-          <div class="card mb-3 p-2" style="max-width: 540px">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <div class="div img-fluid sixth-images rounded-circle mx-4 mt-4">
-                  <img src="sixth cards/icon_box_7.svg" class="p-1" alt="..." />
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Lorem Ipsum is simply dummy text of the most printing and
-                    typese Ipsum is simply dummy
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-         <div class="border-round col-sm-12 col-md-12 col-lg-6 col-xl-4">
-          <div class="card mb-3 p-2" style="max-width: 540px">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <div class="div img-fluid sixth-images rounded-circle mx-4 mt-4">
-                  <img src="sixth cards/icon_box_8.svg" class="p-1" alt="..." />
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Lorem Ipsum is simply dummy text of the most printing and
-                    typese Ipsum is simply dummy
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="border-round col-sm-12 col-md-12 col-lg-6 col-xl-4">
-          <div class="card mb-3 p-2" style="max-width: 540px">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <div class="div img-fluid sixth-images rounded-circle mx-4 mt-4">
-                  <img src="sixth cards/icon_box_9.svg" class="p-1" alt="..." />
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Lorem Ipsum is simply dummy text of the most printing and
-                    typese Ipsum is simply dummy
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="border-round col-sm-12 col-md-12 col-lg-6 col-xl-4">
-          <div class="card mb-3 p-2" style="max-width: 540px">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <div class="div img-fluid sixth-images rounded-circle mx-4 mt-4">
-                  <img src="sixth cards/icon_box_10.svg" class="ps-3" alt="..." />
-                </div>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Lorem Ipsum is simply dummy text of the most printing and
-                    typese Ipsum is simply dummy
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="row d-flex justify-content-center">
-       
-      </div>
-    </div>
-  </div>
-
-  <!-- Seventh section starts  -->
-
-  <div class="div seven-section" style="background-color: rgb(246, 242, 237)">
-    <div class="div text-center">
-      <p class="home-p">Retails stores</p>
-      <h4 class="font-weight-bold best">
-        Perfect point of sale software for<br />
-        most retail stores
-      </h4>
-    </div>
-  </div>
-
-  <!-- 2nd part -->
-
-  <div class="div text-center seven-second">
-    <div class="row">
-      <div class="col-sm-12 col-lg-6 col-xl-6 img-fluid">
-        <div class="div p-4">
-          <img src="retails/retail-store.png" class="retaillogo"/>
-        </div>
-
-      </div>
-      <div class="col-sm-12 col-lg-6 col-xl-6">
-        <div class="div mx-4" style="width: 100%">
-          <div class="row-sm-12 row-md-12  mb-3 ms-5">
-            <div class="col-sm-12 col-lg-5 col-xl-5 retail-col d-flex align-items-center justify-content-center py-4 " style="border-radius: 20px">
-              <img src="retails/retail_icon_1.svg" class="py-4" />
-              <p class="px-3 retail-p">Food Dilevery</p>
-            </div>
-            <div class="col-sm-12 col-lg-6 col-xl-6 retail-col d-flex align-items-center justify-content-center py-4" style="border-radius: 20px;">
-              <img src="retails/retail_icon_2.svg" />
-              <p class="px-3 retail-p">Cycle Store</p>
-            </div>
-          </div>
-          <div class="row-sm-12 row-md-12  mb-3 me-5">
-            <div class="col-sm-12 col-lg-6 col-xl-6 retail-col d-flex align-items-center justify-content-center " style="border-radius: 20px">
-              <img src="retails/retail_icon_3.svg" class="py-4" />
-              <p class="px-3 retail-p">Gift Shop</p>
-            </div>
-            <div class="col-sm-12 col-lg-6 col-xl-6 retail-col d-flex align-items-center justify-content-center py-4" style="border-radius: 20px">
-              <img src="retails/retail_icon_4.svg" />
-              <p class="px-3 retail-p">Furniture Store</p>
-            </div>
-          </div>
-          <div class="row-sm-12 row-md-12 mb-3 ms-5">
-            <div class="col-sm-12 col-lg-6 col-xl-6 retail-col d-flex align-items-center justify-content-center " style="border-radius: 20px">
-              <img src="retails/retail_icon_5.svg" class="py-4" />
-              <p class="px-3 retail-p">Clothing Store</p>
-            </div>
-            <div class="col-sm-12 col-lg-6 col-xl-6 retail-col d-flex align-items-center justify-content-center py-4" style="border-radius: 20px">
-              <img src="retails/retail_icon_6.svg" />
-              <p class="px-3 retail-p">Coffee Shop</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-  <!-- </div> -->
-
-  <!-- eight section start pricing plan -->
-  <div class="div pricing-cards">
-    <div class="div seven-section">
+    <!--Sixth section starts -->
+    <div class="div sixth-section">
       <div class="div text-center">
-        <p class="home-p">Princing plan</p>
-        <h4 class="font-weight-bold best">The best choice for you.</h4>
+        <p class="home-p">POS Feature</p>
+        <h4 class="font-weight-bold best">Available Features</h4>
       </div>
-    </div>
-
-    <!-- cards -->
-    <div>
-      <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 mx-3 card-color">
-          <div class="div pt-4 px-4">
-            <div class="div d-flex justify-content-start">
-              <div class="div rounded-circle bg-light p-3">
-                <img src="Pricing/pricing_icon_1.svg" class="" />
+      <div class="div sixth-card mt-5 container">
+        <div class="row d-flex justify-content-center">
+          <div class="border-round col-sm-12 col-md-12 col-lg-6 col-xl-4">
+            <div class="card mb-3 p-2" style="max-width: 540px">
+              <div class="d-flex justify-content-center">
+                <div class="div">
+                  <div
+                    class="div img-fluid sixth-images rounded-circle mx-4 mt-4"
+                  >
+                    <img
+                      src="sixth cards/icon_box_5.svg"
+                      class="p-2"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <div class="div">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Lorem Ipsum is simply dummy text of the most printing and
+                      typese Ipsum is simply dummy
+                    </p>
+                  </div>
+                </div>
               </div>
-              <p class="align-self-center silver">Silver</p>
             </div>
-            <div class="div m-0">
-              <p class="m-0">
-                <span class="pricing-price">$43</span><span class="text-secondary">/month</span> <br />
-                <span class="home-p m-0">Get 7 days free trail</span>
-              </p>
-              <!-- <p class="home-p mt-0">Get 7 days free trail</p> -->
+          </div>
+          <div class="border-round col-sm-12 col-md-12 col-lg-6 col-xl-4">
+            <div class="card mb-3 p-2" style="max-width: 540px">
+              <div class="d-flex justify-content-center">
+                <div class="div">
+                  <div
+                    class="div img-fluid sixth-images rounded-circle mx-4 mt-4"
+                  >
+                    <img
+                      src="sixth cards/icon_box_6.svg"
+                      class="p-2"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <div class="div">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Lorem Ipsum is simply dummy text of the most printing and
+                      typese Ipsum is simply dummy
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <hr />
-            <div class="div">
-              <ul class="list-unstyled">
-                <p>
-                  <span class="p-2"><img src="Pricing/Check.svg" /> </span>
-                  Unlimited users
-                </p>
-                <p>
-                  <span class="p-2"><img src="Pricing/Check.svg" /> </span>
-                  Unlimited customers
-                </p>
-                <p class="text-muted">
-                  <span class="p-2"><img src="Pricing/Not.svg" /></span>Access
-                  from anywhere
-                </p>
-                <p class="text-muted">
-                  <span class="p-2"><img src="Pricing/Not.svg" /></span>Accept
-                  payments 24/7
-                </p>
-                <p class="text-muted">
-                  <span class="p-2"><img src="Pricing/Not.svg" /></span>Free
-                  Support
-                </p>
-              </ul>
+          </div>
+          <div class="border-round col-sm-12 col-md-12 col-lg-6 col-xl-4">
+            <div class="card mb-3 p-2" style="max-width: 540px">
+              <div class="d-flex justify-content-center">
+                <div class="div">
+                  <div
+                    class="div img-fluid sixth-images rounded-circle mx-4 mt-4"
+                  >
+                    <img
+                      src="sixth cards/icon_box_7.svg"
+                      class="p-1"
+                      alt="div"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Lorem Ipsum is simply dummy text of the most printing and
+                      typese Ipsum is simply dummy
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="div">
-              <button class="btn second-start my-3">Buy now</button>
+          </div>
+          <div class="border-round col-sm-12 col-md-12 col-lg-6 col-xl-4">
+            <div class="card mb-3 p-2" style="max-width: 540px">
+              <div class="d-flex justify-content-center">
+                <div class="div">
+                  <div
+                    class="div img-fluid sixth-images rounded-circle mx-4 mt-4"
+                  >
+                    <img
+                      src="sixth cards/icon_box_8.svg"
+                      class="p-1"
+                      alt="div"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Lorem Ipsum is simply dummy text of the most printing and
+                      typese Ipsum is simply dummy
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="border-round col-sm-12 col-md-12 col-lg-6 col-xl-4">
+            <div class="card mb-3 p-2" style="max-width: 540px">
+              <div class="d-flex justify-content-center">
+                <div class="div">
+                  <div
+                    class="div img-fluid sixth-images rounded-circle mx-4 mt-4"
+                  >
+                    <img
+                      src="sixth cards/icon_box_9.svg"
+                      class="p-1"
+                      alt="div"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Lorem Ipsum is simply dummy text of the most printing and
+                      typese Ipsum is simply dummy
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="border-round col-sm-12 col-md-12 col-lg-6 col-xl-4">
+            <div class="card mb-3 p-2" style="max-width: 540px">
+              <div class="d-flex justify-content-center">
+                <div class="div">
+                  <div
+                    class="div img-fluid sixth-images rounded-circle mx-4 mt-4"
+                  >
+                    <img
+                      src="sixth cards/icon_box_10.svg"
+                      class="ps-3"
+                      alt="div"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Lorem Ipsum is simply dummy text of the most printing and
+                      typese Ipsum is simply dummy
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 mx-3 card-color">
-          <div class="div pt-4 px-4">
-            <div class="div d-flex justify-content-start">
-              <div class="div rounded-circle bg-light p-3">
-                <img src="Pricing/pricing_icon_2.svg" class="" />
-              </div>
-              <p class="align-self-center silver">Gold</p>
-            </div>
-            <div class="div m-0">
-              <p class="m-0">
-                <span class="pricing-price">$65</span><span class="text-secondary">/month</span> <br />
-                <span class="home-p m-0">Get 7 days free trail</span>
-              </p>
-              <!-- <p class="home-p mt-0">Get 7 days free trail</p> -->
-            </div>
-            <hr />
-            <div class="div">
-              <ul class="list-unstyled">
-                <p>
-                  <span class="p-2"><img src="Pricing/Check.svg" /> </span>
-                  Unlimited users
-                </p>
-                <p>
-                  <span class="p-2"><img src="Pricing/Check.svg" /> </span>
-                  Unlimited customers
-                </p>
-                <p class="">
-                  <span class="p-2"><img src="Pricing/Check.svg" /></span>Access from anywhere
-                </p>
-                <p class="text-muted">
-                  <span class="p-2"><img src="Pricing/Not.svg" /></span>Accept
-                  payments 24/7
-                </p>
-                <p class="text-muted">
-                  <span class="p-2"><img src="Pricing/Not.svg" /></span>Free
-                  Support
-                </p>
-              </ul>
-            </div>
-            <div class="div">
-              <button class="btn second-start my-3">Buy now</button>
+
+        <div class="row d-flex justify-content-center"></div>
+      </div>
+    </div>
+
+    <!-- Seventh section starts  -->
+    <div
+      class="div"
+      style="
+        background: linear-gradient(257.51deg, #f2fcfe 44.07%, #faf1fe 100%);
+      "
+    >
+      <div class="div seven-section">
+        <div class="div text-center">
+          <p class="home-p">Retails stores</p>
+          <h4 class="font-weight-bold best">
+            Perfect point of sale software for<br />
+            most retail stores
+          </h4>
+        </div>
+      </div>
+
+      <!-- 2nd part -->
+
+      <div class="div text-center seven-second">
+        <div class="row gx-0">
+          <div
+            class="col-sm-12 col-lg-6 col-xl-6 img-fluid"
+            style="max-width: 100%"
+          >
+            <div class="div pt-0">
+              <img src="retails/retail-store.png" class="retaillogo" />
             </div>
           </div>
-        </div>
-        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 mx-3 card-color">
-          <div class="div pt-4 px-4">
-            <div class="div d-flex justify-content-start">
-              <div class="div rounded-circle bg-light p-3">
-                <img src="Pricing/pricing_icon_1.svg" class="" />
+          <div class="col-sm-12 col-lg-6 col-xl-6 mt-5">
+            <div class="div mx-4" style="max-width: 100%">
+              <div
+                class="row background-cards-reatil-row background-cards-reatil-row-first"
+              >
+                <div
+                  class="col-sm-12 col-lg-5 background-cards-reatil col-xl-5 retail-col d-flex align-items-center justify-content-center py-2"
+                >
+                  <img src="retails/retail_icon_1.svg" class="py-3" />
+                  <p class="px-3 retail-p">Food Dilevery</p>
+                </div>
+                <div
+                  class="col-sm-12 col-lg-5 background-cards-reatil col-xl-5 retail-col d-flex align-items-center justify-content-center py-2"
+                >
+                  <img src="retails/retail_icon_2.svg" class="py-3" />
+                  <p class="px-3 retail-p">Cycle Store</p>
+                </div>
               </div>
-              <p class="align-self-center silver">Bronze</p>
-            </div>
-            <div class="div m-0">
-              <p class="m-0">
-                <span class="pricing-price">$99</span><span class="text-secondary">/month</span> <br />
-                <span class="home-p m-0">Get 7 days free trail</span>
-              </p>
-              <!-- <p class="home-p mt-0">Get 7 days free trail</p> -->
-            </div>
-            <hr />
-            <div class="div">
-              <ul class="list-unstyled">
-                <p>
-                  <span class="p-2"><img src="Pricing/Check.svg" /> </span>
-                  Unlimited users
-                </p>
-                <p>
-                  <span class="p-2"><img src="Pricing/Check.svg" /> </span>
-                  Unlimited customers
-                </p>
-                <p class="">
-                  <span class="p-2"><img src="Pricing/Check.svg" /></span>Access from anywhere
-                </p>
-                <p class="">
-                  <span class="p-2"><img src="Pricing/Check.svg" /></span>Accept payments 24/7
-                </p>
-                <p class="">
-                  <span class="p-2"><img src="Pricing/Check.svg" /></span>Free
-                  Support
-                </p>
-              </ul>
-            </div>
-            <div class="div">
-              <button class="btn second-start my-3">Buy now</button>
+              <div
+                class="row background-cards-reatil-row background-cards-reatil-row-middle"
+              >
+                <div
+                  class="col-sm-12 col-lg-5 background-cards-reatil col-xl-5 retail-col d-flex align-items-center justify-content-center py-2"
+                >
+                  <img src="retails/retail_icon_3.svg" class="py-3" />
+                  <p class="px-3 retail-p">Gift shop</p>
+                </div>
+                <div
+                  class="col-sm-12 col-lg-5 background-cards-reatil col-xl-5 retail-col d-flex align-items-center justify-content-center py-2"
+                >
+                  <img src="retails/retail_icon_4.svg" class="py-3" />
+                  <p class="px-3 retail-p">Furniture Store</p>
+                </div>
+              </div>
+              <div
+                class="row background-cards-reatil-row background-cards-reatil-row-first"
+              >
+                <div
+                  class="col-sm-12 col-lg-5 background-cards-reatil col-xl-5 retail-col d-flex align-items-center justify-content-center py2"
+                >
+                  <img src="retails/retail_icon_5.svg" class="py-3" />
+                  <p class="px-3 retail-p">Clothing Store</p>
+                </div>
+                <div
+                  class="col-sm-12 col-lg-5 background-cards-reatil col-xl-5 retail-col d-flex align-items-center justify-content-center py-2"
+                >
+                  <img src="retails/retail_icon_6.svg" class="py-3" />
+                  <p class="px-3 retail-p">Coffee Shop</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Ninth section start here that is Testtimonials -->
-  <div class="div testimonials">
-    <div class="div seven-section">
-      <div class="div text-center">
-        <p class="home-p">Testtimonials</p>
-        <h4 class="font-weight-bold best">What our client's says.</h4>
+    <!-- </div> -->
+
+    <!-- eight section start pricing plan -->
+    <div class="div pricing-cards">
+      <div class="div seven-section">
+        <div class="div text-center">
+          <p class="home-p">Princing plan</p>
+          <h4 class="font-weight-bold best">The best choice for you.</h4>
+        </div>
       </div>
-    </div>
 
-    <!-- carousal section starts -->
-    <div class="div">
-      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="row d-flex justify-content-center">
-            <div class="col-3 mx-3 pt-4 pb-0 px-4 card-color">
-              <div class=" " style="width: 18rem">
-                <div class="">
+      <!-- cards -->
+      <div>
+        <div class="row justify-content-center">
+          <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 mx-3 card-color">
+            <div class="div pt-4 px-4">
+              <div class="div d-flex justify-content-start">
+                <div class="div rounded-circle bg-light p-3">
+                  <img src="Pricing/pricing_icon_1.svg" class="" />
+                </div>
+                <p class="align-self-center silver">Silver</p>
+              </div>
+              <div class="div m-0">
+                <p class="m-0">
+                  <span class="pricing-price">$43</span
+                  ><span class="text-secondary">/month</span> <br />
+                  <span class="home-p m-0">Get 7 days free trail</span>
+                </p>
+                <!-- <p class="home-p mt-0">Get 7 days free trail</p> -->
+              </div>
+              <hr />
+              <div class="div">
+                <ul class="list-unstyled">
+                  <p>
+                    <span class="p-2"><img src="Pricing/Check.svg" /> </span>
+                    Unlimited users
+                  </p>
+                  <p>
+                    <span class="p-2"><img src="Pricing/Check.svg" /> </span>
+                    Unlimited customers
+                  </p>
+                  <p class="text-muted">
+                    <span class="p-2"><img src="Pricing/Not.svg" /></span>Access
+                    from anywhere
+                  </p>
+                  <p class="text-muted">
+                    <span class="p-2"><img src="Pricing/Not.svg" /></span>Accept
+                    payments 24/7
+                  </p>
+                  <p class="text-muted">
+                    <span class="p-2"><img src="Pricing/Not.svg" /></span>Free
+                    Support
+                  </p>
+                </ul>
+              </div>
+              <div class="div">
+                <button class="btn second-start my-3">Buy now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 mx-3 card-color">
+            <div class="div pt-4 px-4">
+              <div class="div d-flex justify-content-start">
+                <div class="div rounded-circle bg-light p-3">
+                  <img src="Pricing/pricing_icon_2.svg" class="" />
+                </div>
+                <p class="align-self-center silver">Gold</p>
+              </div>
+              <div class="div m-0">
+                <p class="m-0">
+                  <span class="pricing-price">$65</span
+                  ><span class="text-secondary">/month</span> <br />
+                  <span class="home-p m-0">Get 7 days free trail</span>
+                </p>
+                <!-- <p class="home-p mt-0">Get 7 days free trail</p> -->
+              </div>
+              <hr />
+              <div class="div">
+                <ul class="list-unstyled">
+                  <p>
+                    <span class="p-2"><img src="Pricing/Check.svg" /> </span>
+                    Unlimited users
+                  </p>
+                  <p>
+                    <span class="p-2"><img src="Pricing/Check.svg" /> </span>
+                    Unlimited customers
+                  </p>
                   <p class="">
-                    With Trive's help, we were able to increase the
-                    functionality of our website dramatically while were able
-                    to increse the.
+                    <span class="p-2"><img src="Pricing/Check.svg" /></span
+                    >Access from anywhere
                   </p>
-                  <div class="div d-flex mx-1">
-                    <div class="div">
-                      <img src="testimonial/avatar_1.png" class="" alt="..." />
-                    </div>
-                    <div class="div px-2 py-0">
-                      <h5>Jacque Askew</h5>
-                      <p>Customer</p>
-                      <img src="testimonial/stars.svg" />
-                    </div>
-                  </div>
-                </div>
+                  <p class="text-muted">
+                    <span class="p-2"><img src="Pricing/Not.svg" /></span>Accept
+                    payments 24/7
+                  </p>
+                  <p class="text-muted">
+                    <span class="p-2"><img src="Pricing/Not.svg" /></span>Free
+                    Support
+                  </p>
+                </ul>
+              </div>
+              <div class="div">
+                <button class="btn second-start my-3">Buy now</button>
               </div>
             </div>
-            <div class="col-3 mx-3 pt-4 pb-0 px-4 card-color">
-              <div class=" " style="width: 18rem">
-                <div class="">
+          </div>
+          <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 mx-3 card-color">
+            <div class="div pt-4 px-4">
+              <div class="div d-flex justify-content-start">
+                <div class="div rounded-circle bg-light p-3">
+                  <img src="Pricing/pricing_icon_1.svg" class="" />
+                </div>
+                <p class="align-self-center silver">Bronze</p>
+              </div>
+              <div class="div m-0">
+                <p class="m-0">
+                  <span class="pricing-price">$99</span
+                  ><span class="text-secondary">/month</span> <br />
+                  <span class="home-p m-0">Get 7 days free trail</span>
+                </p>
+                <!-- <p class="home-p mt-0">Get 7 days free trail</p> -->
+              </div>
+              <hr />
+              <div class="div">
+                <ul class="list-unstyled">
+                  <p>
+                    <span class="p-2"><img src="Pricing/Check.svg" /> </span>
+                    Unlimited users
+                  </p>
+                  <p>
+                    <span class="p-2"><img src="Pricing/Check.svg" /> </span>
+                    Unlimited customers
+                  </p>
                   <p class="">
-                    With Trive's help, we were able to increase the
-                    functionality of our website dramatically while were able
-                    to increse the.
+                    <span class="p-2"><img src="Pricing/Check.svg" /></span
+                    >Access from anywhere
                   </p>
-                  <div class="div d-flex mx-1">
-                    <div class="div">
-                      <img src="testimonial/avatar_2.png" class="" alt="..." />
-                    </div>
-                    <div class="div px-2 py-0">
-                      <h5>Jacque Askew</h5>
-                      <p>Customer</p>
-                      <img src="testimonial/stars.svg" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-3 mx-3 py-3 px-4 card-color">
-              <div class=" " style="width: 18rem">
-                <div class="">
                   <p class="">
-                    With Trive's help, we were able to increase the
-                    functionality of our website dramatically while were able
-                    to increse the.
+                    <span class="p-2"><img src="Pricing/Check.svg" /></span
+                    >Accept payments 24/7
                   </p>
-                  <div class="div d-flex mx-1">
-                    <div class="div">
-                      <img src="testimonial/avatar_3.png" class="" alt="..." />
+                  <p class="">
+                    <span class="p-2"><img src="Pricing/Check.svg" /></span>Free
+                    Support
+                  </p>
+                </ul>
+              </div>
+              <div class="div">
+                <button class="btn second-start my-3">Buy now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ninth section start here that is Testtimonials -->
+    <div class="div testimonials">
+      <div class="div seven-section">
+        <div class="div text-center">
+          <p class="home-p">Testtimonials</p>
+          <h4 class="font-weight-bold best">What our client's says.</h4>
+        </div>
+      </div>
+
+      <!-- carousal section starts -->
+      <div class="div">
+        <div
+          id="carouselExampleDark"
+          class="carousel carousel-dark slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="row d-flex justify-content-center">
+              <div
+                class="col-sm-12 col-md-12 col-lg-3 mx-3 pt-4 pb-0 px-4 card-color"
+              >
+                <div class=" " style="width: 18rem">
+                  <div class="">
+                    <p class="">
+                      With Trive's help, we were able to increase the
+                      functionality of our website dramatically while were able
+                      to increse the.
+                    </p>
+                    <div class="div d-flex mx-1">
+                      <div class="div">
+                        <img
+                          src="testimonial/avatar_1.png"
+                          class=""
+                          alt="..."
+                        />
+                      </div>
+                      <div class="div px-2 py-0">
+                        <h5>Jacque Askew</h5>
+                        <p>Customer</p>
+                        <img src="testimonial/stars.svg" />
+                      </div>
                     </div>
-                    <div class="div px-2 py-0">
-                      <h5>Jacque Askew</h5>
-                      <p>Customer</p>
-                      <img src="testimonial/stars.svg" />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-12 col-md-12 col-lg-3 mx-3 pt-4 pb-0 px-4 card-color testimonial-display-none"
+              >
+                <div class=" " style="width: 18rem">
+                  <div class="">
+                    <p class="">
+                      With Trive's help, we were able to increase the
+                      functionality of our website dramatically while were able
+                      to increse the.
+                    </p>
+                    <div class="div d-flex mx-1">
+                      <div class="div">
+                        <img
+                          src="testimonial/avatar_2.png"
+                          class=""
+                          alt="..."
+                        />
+                      </div>
+                      <div class="div px-2 py-0">
+                        <h5>Jacque Askew</h5>
+                        <p>Customer</p>
+                        <img src="testimonial/stars.svg" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-sm-12 col-md-12 col-lg-3 mx-3 py-3 px-4 card-color testimonial-display-none"
+              >
+                <div class=" " style="width: 18rem">
+                  <div class="">
+                    <p class="">
+                      With Trive's help, we were able to increase the
+                      functionality of our website dramatically while were able
+                      to increse the.
+                    </p>
+                    <div class="div d-flex mx-1">
+                      <div class="div">
+                        <img
+                          src="testimonial/avatar_3.png"
+                          class=""
+                          alt="..."
+                        />
+                      </div>
+                      <div class="div px-2 py-0">
+                        <h5>Jacque Askew</h5>
+                        <p>Customer</p>
+                        <img src="testimonial/stars.svg" />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -705,170 +860,244 @@
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- client section start -->
-  <div class="div client">
-    <div class="div seven-section">
-      <div class="div text-center">
-        <p class="home-p">Our client</p>
-        <h4 class="font-weight-bold best">Who we patner with</h4>
-      </div>
-    </div>
-    <!-- second part -->
-    <div class="div container">
-      <div class="row d-flex justify-content-around align-items-center">
-        <div class="col">
-          <div class="div p-5 client-img d-flex justify-content-center align-items-center">
-            <img src="client/client_1.svg" />
-          </div>
-        </div>
-        <div class="col">
-          <div class="div p-5 client-img d-flex justify-content-center align-items-center">
-            <img src="client/client_2.svg" />
-          </div>
-        </div>
-        <div class="col">
-          <div class="div p-5 client-img d-flex justify-content-center align-items-center">
-            <img src="client/client_3.svg" />
-          </div>
-        </div>
-        <div class="col">
-          <div class="div p-5 client-img d-flex justify-content-center align-items-center">
-            <img src="client/client_4.svg" />
-          </div>
-        </div>
-        <div class="col">
-          <div class="div p-5 client-img d-flex justify-content-center align-items-center">
-            <img src="client/client_5.svg" />
-          </div>
-        </div>
-        <div class="col">
-          <div class="div p-5 client-img d-flex justify-content-center align-items-center">
-            <img src="client/client_6.svg" />
-          </div>
+    <!-- client section start -->
+    <div class="div client">
+      <div class="div seven-section">
+        <div class="div text-center">
+          <p class="home-p">Our client</p>
+          <h4 class="font-weight-bold best">Who we patner with</h4>
         </div>
       </div>
-    </div>
-  </div>
-
-  <!-- Frequently asked question -->
-  <div class="div question">
-    <div class="div seven-section">
-      <div class="div text-center">
-        <p class="home-p">POS FAQ</p>
-        <h4 class="font-weight-bold best">Frequently asked questions</h4>
+      <!-- second part -->
+      <div class="div container">
+        <div class="row d-flex justify-content-around align-items-center">
+          <div class="col">
+            <div
+              class="div p-5 client-img d-flex justify-content-center align-items-center"
+            >
+              <img src="client/client_1.svg" />
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="div p-5 client-img d-flex justify-content-center align-items-center"
+            >
+              <img src="client/client_2.svg" />
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="div p-5 client-img d-flex justify-content-center align-items-center"
+            >
+              <img src="client/client_3.svg" />
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="div p-5 client-img d-flex justify-content-center align-items-center"
+            >
+              <img src="client/client_4.svg" />
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="div p-5 client-img d-flex justify-content-center align-items-center"
+            >
+              <img src="client/client_5.svg" />
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="div p-5 client-img d-flex justify-content-center align-items-center"
+            >
+              <img src="client/client_6.svg" />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
-    <!-- 2nd part -->
-    <div class="div">
-      <div class="row">
-        <div class="col-sm-12 col-lg-6 col-xl-6 d-flex justify-content-center text-align-center">
-          <div class="div">
-            <img src="questions/faq_img.png" />
-          </div>
+    <!-- Frequently asked question -->
+    <div class="div question">
+      <div class="div seven-section">
+        <div class="div text-center">
+          <p class="home-p">POS FAQ</p>
+          <h4 class="font-weight-bold best">Frequently asked questions</h4>
         </div>
-        <div class="col-sm-12 col-lg-5 col-xl-5">
-          <div class="div question-accordian">
-            <div class="accordion accordion-flush" id="accordionFlushExample">
-              <div class="accordion-item accordion-round1 my-4">
-                <h2 class="accordion-header" id="flush-headingOne">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    <p class="frequent-Q">
-                      <span class="frequent-sr"><span style="color:#6990ff">Q1.</span></span> What is a point of
-                      sale?
-                    </p>
-                  </button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                  data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard sincethe 15000s, printer took a galley of type
-                    and scrambl.
+      </div>
+
+      <!-- 2nd part -->
+      <div class="div">
+        <div class="row">
+          <div
+            class="col-sm-12 col-lg-6 col-xl-6 d-flex justify-content-center text-align-center"
+          >
+            <div class="div">
+              <img src="questions/faq_img.png" style="max-width: 100%" />
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-5 col-xl-5">
+            <div class="div question-accordian">
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item accordion-round1 my-4">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                    >
+                      <p class="frequent-Q">
+                        <span class="frequent-sr"
+                          ><span style="color: #6990ff">Q1.</span></span
+                        >
+                        What is a point of sale?
+                      </p>
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard sincethe 15000s, printer took a galley of type
+                      and scrambl.
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="accordion-item accordion-round1 my-4">
-                <h2 class="accordion-header" id="flush-headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                    <p class="frequent-Q">
-                      <span class="frequent-sr"><span style="color:#6990ff">Q2.</span></span> What is the best
-                      POS system?
-                    </p>
-                  </button>
-                </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                  data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard sincethe 15000s, printer took a galley of type
-                    and scrambl.
+                <div class="accordion-item accordion-round1 my-4">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseTwo"
+                    >
+                      <p class="frequent-Q">
+                        <span class="frequent-sr"
+                          ><span style="color: #6990ff">Q2.</span></span
+                        >
+                        What is the best POS system?
+                      </p>
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard sincethe 15000s, printer took a galley of type
+                      and scrambl.
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="accordion-item accordion-round1 my-4">
-                <h2 class="accordion-header" id="flush-headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                    <p class="frequent-Q">
-                      <span class="frequent-sr"><span style="color:#6990ff">Q3.</span></span> How does a POS
-                      system work?
-                    </p>
-                  </button>
-                </h2>
-                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                  data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard sincethe 15000s, printer took a galley of type
-                    and scrambl.
+                <div class="accordion-item accordion-round1 my-4">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseThree"
+                    >
+                      <p class="frequent-Q">
+                        <span class="frequent-sr"
+                          ><span style="color: #6990ff">Q3.</span></span
+                        >
+                        How does a POS system work?
+                      </p>
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard sincethe 15000s, printer took a galley of type
+                      and scrambl.
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="accordion-item accordion-round1 my-4">
-                <h2 class="accordion-header" id="flush-headingFour">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                    <p class="frequent-Q">
-                      <span class="frequent-sr"><span style="color:#6990ff">Q4.</span></span> How to use a POS
-                      System?
-                    </p>
-                  </button>
-                </h2>
-                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
-                  data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard sincethe 15000s, printer took a galley of type
-                    and scrambl.
+                <div class="accordion-item accordion-round1 my-4">
+                  <h2 class="accordion-header" id="flush-headingFour">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFour"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseFour"
+                    >
+                      <p class="frequent-Q">
+                        <span class="frequent-sr"
+                          ><span style="color: #6990ff">Q4.</span></span
+                        >
+                        How to use a POS System?
+                      </p>
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseFour"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingFour"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard sincethe 15000s, printer took a galley of type
+                      and scrambl.
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="accordion-item accordion-round1 my-4">
-                <h2 class="accordion-header" id="flush-headingFive">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                    <p class="frequent-Q">
-                      <span class="frequent-sr"><span style="color:#6990ff">Q5.</span></span> How can i make a
-                      payment?
-                    </p>
-                  </button>
-                </h2>
-                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
-                  data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard sincethe 15000s, printer took a galley of type
-                    and scrambl.
+                <div class="accordion-item accordion-round1 my-4">
+                  <h2 class="accordion-header" id="flush-headingFive">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFive"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseFive"
+                    >
+                      <p class="frequent-Q">
+                        <span class="frequent-sr"
+                          ><span style="color: #6990ff">Q5.</span></span
+                        >
+                        How can i make a payment?
+                      </p>
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseFive"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingFive"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard sincethe 15000s, printer took a galley of type
+                      and scrambl.
+                    </div>
                   </div>
                 </div>
               </div>
@@ -877,349 +1106,451 @@
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Latest news -->
-  <div class="div news">
-    <div class="div seven-section">
-      <div class="div text-center">
-        <p class="home-p">Latest news</p>
-        <h4 class="font-weight-bold best">Point of sale latest news</h4>
+    <!-- Latest news -->
+    <div class="div news">
+      <div class="div seven-section">
+        <div class="div text-center">
+          <p class="home-p">Latest news</p>
+          <h4 class="font-weight-bold best">Point of sale latest news</h4>
+        </div>
       </div>
-    </div>
-    <!-- cards in news -->
-    <div class="div container">
-      <div class="row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-center">
-        <div class="col-sm-12 col-lg-6 col-xl-3">
-          <div class="card">
-            <img src="news/post_1.jpeg" class="rounded" alt="..." />
-            <div class="card-body">
-              <ul class="list-unstyled d-flex my-0">
-                <li class="px-1">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em"
-                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512" class="logo-color">
-                    <path fill="currentColor"
-                      d="M313.6 304c-28.7 0-42.5 16-89.6 16c-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4c14.6 0 38.3 16 89.6 16c51.7 0 74.9-16 89.6-16c47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0S80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96s-96-43.1-96-96s43.1-96 96-96z">
-                    </path>
-                  </svg>
-                </li>
-                <li class="px-1 text-muted">
-                  <p>admin</p>
-                </li>
-                <div class="div d-flex ps-5">
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em"
-                      preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512" class="logo-color">
-                      <path fill="currentColor"
-                        d="M152 64h144V24c0-13.25 10.7-24 24-24s24 10.75 24 24v40h40c35.3 0 64 28.65 64 64v320c0 35.3-28.7 64-64 64H64c-35.35 0-64-28.7-64-64V128c0-35.35 28.65-64 64-64h40V24c0-13.25 10.7-24 24-24s24 10.75 24 24v40zM48 448c0 8.8 7.16 16 16 16h320c8.8 0 16-7.2 16-16V192H48v256z">
-                      </path>
+      <!-- cards in news -->
+      <div class="div container">
+        <div
+          class="row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-center"
+        >
+          <div class="col-sm-12 col-lg-6 col-xl-3">
+            <div class="card">
+              <img src="news/post_1.jpeg" class="rounded" alt="..." />
+              <div class="card-body">
+                <ul class="list-unstyled d-flex my-0">
+                  <li class="px-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="0.88em"
+                      height="1em"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 448 512"
+                      class="logo-color"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M313.6 304c-28.7 0-42.5 16-89.6 16c-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4c14.6 0 38.3 16 89.6 16c51.7 0 74.9-16 89.6-16c47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0S80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96s-96-43.1-96-96s43.1-96 96-96z"
+                      ></path>
                     </svg>
                   </li>
-                  <li>
-                    <p class="text-muted">12.09.2022</p>
+                  <li class="px-1 text-muted">
+                    <p>admin</p>
                   </li>
-                </div>
-              </ul>
-              <p class="frequent-Q my-0">
-                Point of sale software <br />card usage
-              </p>
-              <p class="text-primary">
-                Read more
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
-                  viewBox="0 0 24 24">
-                  <path fill="currentColor"
-                    d="M13.3 17.275q-.3-.3-.288-.725q.013-.425.313-.725L16.15 13H5q-.425 0-.713-.288Q4 12.425 4 12t.287-.713Q4.575 11 5 11h11.15L13.3 8.15q-.3-.3-.3-.713q0-.412.3-.712t.713-.3q.412 0 .712.3L19.3 11.3q.15.15.213.325q.062.175.062.375t-.062.375q-.063.175-.213.325l-4.6 4.6q-.275.275-.687.275q-.413 0-.713-.3Z">
-                  </path>
-                </svg>
-              </p>
+                  <div class="div d-flex ps-5">
+                    <li>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="0.88em"
+                        height="1em"
+                        preserveAspectRatio="xMidYMid meet"
+                        viewBox="0 0 448 512"
+                        class="logo-color"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M152 64h144V24c0-13.25 10.7-24 24-24s24 10.75 24 24v40h40c35.3 0 64 28.65 64 64v320c0 35.3-28.7 64-64 64H64c-35.35 0-64-28.7-64-64V128c0-35.35 28.65-64 64-64h40V24c0-13.25 10.7-24 24-24s24 10.75 24 24v40zM48 448c0 8.8 7.16 16 16 16h320c8.8 0 16-7.2 16-16V192H48v256z"
+                        ></path>
+                      </svg>
+                    </li>
+                    <li>
+                      <p class="text-muted">12.09.2022</p>
+                    </li>
+                  </div>
+                </ul>
+                <p class="frequent-Q my-0">
+                  Point of sale software <br />card usage
+                </p>
+                <p class="text-primary">
+                  Read more
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M13.3 17.275q-.3-.3-.288-.725q.013-.425.313-.725L16.15 13H5q-.425 0-.713-.288Q4 12.425 4 12t.287-.713Q4.575 11 5 11h11.15L13.3 8.15q-.3-.3-.3-.713q0-.412.3-.712t.713-.3q.412 0 .712.3L19.3 11.3q.15.15.213.325q.062.175.062.375t-.062.375q-.063.175-.213.325l-4.6 4.6q-.275.275-.687.275q-.413 0-.713-.3Z"
+                    ></path>
+                  </svg>
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-12 col-lg-6 col-xl-3">
-          <div class="card">
-            <img src="news/post_2.jpeg" class="rounded" alt="..." />
-            <div class="card-body">
-              <ul class="list-unstyled d-flex my-0">
-                <li class="px-1">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em"
-                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512" class="logo-color">
-                    <path fill="currentColor"
-                      d="M313.6 304c-28.7 0-42.5 16-89.6 16c-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4c14.6 0 38.3 16 89.6 16c51.7 0 74.9-16 89.6-16c47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0S80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96s-96-43.1-96-96s43.1-96 96-96z">
-                    </path>
-                  </svg>
-                </li>
-                <li class="px-1 text-muted">
-                  <p>admin</p>
-                </li>
-                <div class="div d-flex ps-5">
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em"
-                      preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512" class="logo-color">
-                      <path fill="currentColor"
-                        d="M152 64h144V24c0-13.25 10.7-24 24-24s24 10.75 24 24v40h40c35.3 0 64 28.65 64 64v320c0 35.3-28.7 64-64 64H64c-35.35 0-64-28.7-64-64V128c0-35.35 28.65-64 64-64h40V24c0-13.25 10.7-24 24-24s24 10.75 24 24v40zM48 448c0 8.8 7.16 16 16 16h320c8.8 0 16-7.2 16-16V192H48v256z">
-                      </path>
+          <div class="col-sm-12 col-lg-6 col-xl-3">
+            <div class="card">
+              <img src="news/post_2.jpeg" class="rounded" alt="..." />
+              <div class="card-body">
+                <ul class="list-unstyled d-flex my-0">
+                  <li class="px-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="0.88em"
+                      height="1em"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 448 512"
+                      class="logo-color"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M313.6 304c-28.7 0-42.5 16-89.6 16c-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4c14.6 0 38.3 16 89.6 16c51.7 0 74.9-16 89.6-16c47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0S80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96s-96-43.1-96-96s43.1-96 96-96z"
+                      ></path>
                     </svg>
                   </li>
-                  <li>
-                    <p class="text-muted">12.09.2022</p>
+                  <li class="px-1 text-muted">
+                    <p>admin</p>
                   </li>
-                </div>
-              </ul>
-              <p class="frequent-Q my-0">
-                Point of sale software <br />card usage
-              </p>
-              <p class="text-primary">
-                Read more
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
-                  viewBox="0 0 24 24">
-                  <path fill="currentColor"
-                    d="M13.3 17.275q-.3-.3-.288-.725q.013-.425.313-.725L16.15 13H5q-.425 0-.713-.288Q4 12.425 4 12t.287-.713Q4.575 11 5 11h11.15L13.3 8.15q-.3-.3-.3-.713q0-.412.3-.712t.713-.3q.412 0 .712.3L19.3 11.3q.15.15.213.325q.062.175.062.375t-.062.375q-.063.175-.213.325l-4.6 4.6q-.275.275-.687.275q-.413 0-.713-.3Z">
-                  </path>
-                </svg>
-              </p>
+                  <div class="div d-flex ps-5">
+                    <li>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="0.88em"
+                        height="1em"
+                        preserveAspectRatio="xMidYMid meet"
+                        viewBox="0 0 448 512"
+                        class="logo-color"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M152 64h144V24c0-13.25 10.7-24 24-24s24 10.75 24 24v40h40c35.3 0 64 28.65 64 64v320c0 35.3-28.7 64-64 64H64c-35.35 0-64-28.7-64-64V128c0-35.35 28.65-64 64-64h40V24c0-13.25 10.7-24 24-24s24 10.75 24 24v40zM48 448c0 8.8 7.16 16 16 16h320c8.8 0 16-7.2 16-16V192H48v256z"
+                        ></path>
+                      </svg>
+                    </li>
+                    <li>
+                      <p class="text-muted">12.09.2022</p>
+                    </li>
+                  </div>
+                </ul>
+                <p class="frequent-Q my-0">
+                  Point of sale software <br />card usage
+                </p>
+                <p class="text-primary">
+                  Read more
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M13.3 17.275q-.3-.3-.288-.725q.013-.425.313-.725L16.15 13H5q-.425 0-.713-.288Q4 12.425 4 12t.287-.713Q4.575 11 5 11h11.15L13.3 8.15q-.3-.3-.3-.713q0-.412.3-.712t.713-.3q.412 0 .712.3L19.3 11.3q.15.15.213.325q.062.175.062.375t-.062.375q-.063.175-.213.325l-4.6 4.6q-.275.275-.687.275q-.413 0-.713-.3Z"
+                    ></path>
+                  </svg>
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-12 col-lg-6 col-xl-3">
-          <div class="card">
-            <img src="news/post_3.jpeg" class="rounded" alt="..." />
-            <div class="card-body">
-              <ul class="list-unstyled d-flex my-0">
-                <li class="px-1">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em"
-                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512" class="text-success">
-                    <path fill="currentColor"
-                      d="M313.6 304c-28.7 0-42.5 16-89.6 16c-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4c14.6 0 38.3 16 89.6 16c51.7 0 74.9-16 89.6-16c47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0S80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96s-96-43.1-96-96s43.1-96 96-96z">
-                    </path>
-                  </svg>
-                </li>
-                <li class="px-1 text-muted">
-                  <p>admin</p>
-                </li>
-                <div class="div d-flex ps-5">
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em"
-                      preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512" class="text-success">
-                      <path fill="currentColor"
-                        d="M152 64h144V24c0-13.25 10.7-24 24-24s24 10.75 24 24v40h40c35.3 0 64 28.65 64 64v320c0 35.3-28.7 64-64 64H64c-35.35 0-64-28.7-64-64V128c0-35.35 28.65-64 64-64h40V24c0-13.25 10.7-24 24-24s24 10.75 24 24v40zM48 448c0 8.8 7.16 16 16 16h320c8.8 0 16-7.2 16-16V192H48v256z">
-                      </path>
+          <div class="col-sm-12 col-lg-6 col-xl-3">
+            <div class="card">
+              <img src="news/post_3.jpeg" class="rounded" alt="..." />
+              <div class="card-body">
+                <ul class="list-unstyled d-flex my-0">
+                  <li class="px-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="0.88em"
+                      height="1em"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 448 512"
+                      class="text-success"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M313.6 304c-28.7 0-42.5 16-89.6 16c-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4c14.6 0 38.3 16 89.6 16c51.7 0 74.9-16 89.6-16c47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0S80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96s-96-43.1-96-96s43.1-96 96-96z"
+                      ></path>
                     </svg>
                   </li>
-                  <li>
-                    <p class="text-muted">12.09.2022</p>
+                  <li class="px-1 text-muted">
+                    <p>admin</p>
                   </li>
-                </div>
-              </ul>
-              <p class="frequent-Q my-0">
-                Point of sale software <br />card usage
-              </p>
-              <p class="text-primary">
-                Read more
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
-                  viewBox="0 0 24 24">
-                  <path fill="currentColor"
-                    d="M13.3 17.275q-.3-.3-.288-.725q.013-.425.313-.725L16.15 13H5q-.425 0-.713-.288Q4 12.425 4 12t.287-.713Q4.575 11 5 11h11.15L13.3 8.15q-.3-.3-.3-.713q0-.412.3-.712t.713-.3q.412 0 .712.3L19.3 11.3q.15.15.213.325q.062.175.062.375t-.062.375q-.063.175-.213.325l-4.6 4.6q-.275.275-.687.275q-.413 0-.713-.3Z">
-                  </path>
-                </svg>
-              </p>
+                  <div class="div d-flex ps-5">
+                    <li>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="0.88em"
+                        height="1em"
+                        preserveAspectRatio="xMidYMid meet"
+                        viewBox="0 0 448 512"
+                        class="text-success"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M152 64h144V24c0-13.25 10.7-24 24-24s24 10.75 24 24v40h40c35.3 0 64 28.65 64 64v320c0 35.3-28.7 64-64 64H64c-35.35 0-64-28.7-64-64V128c0-35.35 28.65-64 64-64h40V24c0-13.25 10.7-24 24-24s24 10.75 24 24v40zM48 448c0 8.8 7.16 16 16 16h320c8.8 0 16-7.2 16-16V192H48v256z"
+                        ></path>
+                      </svg>
+                    </li>
+                    <li>
+                      <p class="text-muted">12.09.2022</p>
+                    </li>
+                  </div>
+                </ul>
+                <p class="frequent-Q my-0">
+                  Point of sale software <br />card usage
+                </p>
+                <p class="text-primary">
+                  Read more
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M13.3 17.275q-.3-.3-.288-.725q.013-.425.313-.725L16.15 13H5q-.425 0-.713-.288Q4 12.425 4 12t.287-.713Q4.575 11 5 11h11.15L13.3 8.15q-.3-.3-.3-.713q0-.412.3-.712t.713-.3q.412 0 .712.3L19.3 11.3q.15.15.213.325q.062.175.062.375t-.062.375q-.063.175-.213.325l-4.6 4.6q-.275.275-.687.275q-.413 0-.713-.3Z"
+                    ></path>
+                  </svg>
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-12 col-lg-6 col-xl-3">
-          <div class="card">
-            <img src="news/post_4.jpeg" class="rounded" alt="..." />
-            <div class="card-body">
-              <ul class="list-unstyled d-flex my-0">
-                <li class="px-1">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em"
-                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512" class="text-success">
-                    <path fill="currentColor"
-                      d="M313.6 304c-28.7 0-42.5 16-89.6 16c-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4c14.6 0 38.3 16 89.6 16c51.7 0 74.9-16 89.6-16c47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0S80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96s-96-43.1-96-96s43.1-96 96-96z">
-                    </path>
-                  </svg>
-                </li>
-                <li class="px-1 text-muted">
-                  <p>admin</p>
-                </li>
-                <div class="div d-flex ps-5">
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em"
-                      preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512" class="text-success">
-                      <path fill="currentColor"
-                        d="M152 64h144V24c0-13.25 10.7-24 24-24s24 10.75 24 24v40h40c35.3 0 64 28.65 64 64v320c0 35.3-28.7 64-64 64H64c-35.35 0-64-28.7-64-64V128c0-35.35 28.65-64 64-64h40V24c0-13.25 10.7-24 24-24s24 10.75 24 24v40zM48 448c0 8.8 7.16 16 16 16h320c8.8 0 16-7.2 16-16V192H48v256z">
-                      </path>
+          <div class="col-sm-12 col-lg-6 col-xl-3">
+            <div class="card">
+              <img src="news/post_4.jpeg" class="rounded" alt="..." />
+              <div class="card-body">
+                <ul class="list-unstyled d-flex my-0">
+                  <li class="px-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="0.88em"
+                      height="1em"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 448 512"
+                      class="text-success"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M313.6 304c-28.7 0-42.5 16-89.6 16c-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4c14.6 0 38.3 16 89.6 16c51.7 0 74.9-16 89.6-16c47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0S80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96s-96-43.1-96-96s43.1-96 96-96z"
+                      ></path>
                     </svg>
                   </li>
-                  <li>
-                    <p class="text-muted">12.09.2022</p>
+                  <li class="px-1 text-muted">
+                    <p>admin</p>
                   </li>
-                </div>
-              </ul>
-              <p class="frequent-Q my-0">
-                Point of sale software <br />card usage
-              </p>
-              <p class="text-primary">
-                Read more
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
-                  viewBox="0 0 24 24">
-                  <path fill="currentColor"
-                    d="M13.3 17.275q-.3-.3-.288-.725q.013-.425.313-.725L16.15 13H5q-.425 0-.713-.288Q4 12.425 4 12t.287-.713Q4.575 11 5 11h11.15L13.3 8.15q-.3-.3-.3-.713q0-.412.3-.712t.713-.3q.412 0 .712.3L19.3 11.3q.15.15.213.325q.062.175.062.375t-.062.375q-.063.175-.213.325l-4.6 4.6q-.275.275-.687.275q-.413 0-.713-.3Z">
-                  </path>
-                </svg>
-              </p>
+                  <div class="div d-flex ps-5">
+                    <li>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="0.88em"
+                        height="1em"
+                        preserveAspectRatio="xMidYMid meet"
+                        viewBox="0 0 448 512"
+                        class="text-success"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M152 64h144V24c0-13.25 10.7-24 24-24s24 10.75 24 24v40h40c35.3 0 64 28.65 64 64v320c0 35.3-28.7 64-64 64H64c-35.35 0-64-28.7-64-64V128c0-35.35 28.65-64 64-64h40V24c0-13.25 10.7-24 24-24s24 10.75 24 24v40zM48 448c0 8.8 7.16 16 16 16h320c8.8 0 16-7.2 16-16V192H48v256z"
+                        ></path>
+                      </svg>
+                    </li>
+                    <li>
+                      <p class="text-muted">12.09.2022</p>
+                    </li>
+                  </div>
+                </ul>
+                <p class="frequent-Q my-0">
+                  Point of sale software <br />card usage
+                </p>
+                <p class="text-primary">
+                  Read more
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M13.3 17.275q-.3-.3-.288-.725q.013-.425.313-.725L16.15 13H5q-.425 0-.713-.288Q4 12.425 4 12t.287-.713Q4.575 11 5 11h11.15L13.3 8.15q-.3-.3-.3-.713q0-.412.3-.712t.713-.3q.412 0 .712.3L19.3 11.3q.15.15.213.325q.062.175.062.375t-.062.375q-.063.175-.213.325l-4.6 4.6q-.275.275-.687.275q-.413 0-.713-.3Z"
+                    ></path>
+                  </svg>
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Contact us -->
-  <div class="contact container-fluid">
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-6 col-sm-12">
-          <div class="div contact-first">
-            <p class="home-p">Contract Us</p>
-            <h4 class="font-weight-bold best">
-              If you have any quiries, fill free to contact us
-            </h4>
-            <p class="muted-color">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.Lorem Ipsum is simply dummy text of the Lorem Ipsum is
-              simply dummy text of the printing and typesetting.
+    <!-- Contact us -->
+    <div class="contact container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-sm-12">
+            <div class="div contact-first">
+              <p class="home-p">Contract Us</p>
+              <h4 class="font-weight-bold best">
+                If you have any quiries, fill free to contact us
+              </h4>
+              <p class="muted-color">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.Lorem Ipsum is simply dummy text of the Lorem Ipsum is
+                simply dummy text of the printing and typesetting.
+              </p>
+              <div class="row">
+                <div class="col-1 my-4">
+                  <img src="contact/contact_icon_1.svg" />
+                </div>
+                <div class="col-8">
+                  <div class="div">
+                    <p class="my-0 mt-3 address">Address</p>
+                    <p class="muted-color my-0">
+                      4117 Leroy LaneHarold, KY 41635,
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-1 my-4">
+                  <img src="contact/contact_icon_2.svg" />
+                </div>
+                <div class="col-8">
+                  <div class="div">
+                    <p class="my-0 mt-3 address">Contract Number</p>
+                    <p class="muted-color my-0">+606-243-4966</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-1 my-4">
+                  <img src="contact/contact_icon_3.svg" />
+                </div>
+                <div class="col-8">
+                  <div class="div">
+                    <p class="my-0 mt-3 address">Email Address</p>
+                    <p class="muted-color my-0">sandesh@angularminds.in</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-sm-12">
+            <div class="div contact-second">
+              <p class="frequent-Q text-start">Please fill up the form</p>
+              <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                  <input
+                    type="text"
+                    placeholder="name"
+                    class="form-control phone-no bg-white p-3"
+                  />
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                  <input
+                    type="text"
+                    placeholder="email address"
+                    class="form-control phone-no bg-white p-3"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 col-lg-12 col-xl-12 col-lx mt-2">
+                  <input
+                    type="text"
+                    placeholder="phone no"
+                    class="form-control phone-no bg-white p-3"
+                  />
+                </div>
+              </div>
+
+              <div class="row mt-2">
+                <div class="col-sm-12 col-lg-12 col-xl-12 col-lx-12">
+                  <textarea
+                    style="width: 100%; height: 100%"
+                    class="phone-no bg-danger rounded pt-2"
+                    placeholder="Write your massage"
+                  ></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="btn send-message px-3 py-2 mt-3">
+                    Send Message
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer section starts -->
+    <div class="div footer-section">
+      <div class="div container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-3">
+            <div class="div">
+              <img src="logo_footer.svg" class="" />
+              <p class="onftr pt-3">
+                On the other hand, we denounce with righteous indignation and
+                dislike men who are so
+              </p>
+              <div class="row py-3">
+                <div class="col-1 pe-4"><img src="footer/facebook.svg" /></div>
+                <div class="col-1 px-4"><img src="footer/twitter.svg" /></div>
+                <div class="col-1 px-4"><img src="footer/instagram.svg" /></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-3 px-5">
+            <p class="availabel">Available POS</p>
+            <ul class="list-unstyled onftr">
+              <li>Food Delivery</li>
+              <li>Furniture Store</li>
+              <li>Coffee Shop</li>
+              <li>Clothing Store</li>
+              <li>eCommerce</li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-3 px-5">
+            <p class="availabel">Company</p>
+            <ul class="list-unstyled onftr">
+              <li>Features</li>
+              <li>FAQ</li>
+              <li>Privacy Policy</li>
+              <li>Terms of Use</li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-3 px-5">
+            <p class="availabel">Suscribe US</p>
+            <p class="onftr mb-3">
+              Get Business news, tip and solutions to your problems from our
+              experts.
             </p>
-            <div class="row">
-              <div class="col-1 my-4">
-                <img src="contact/contact_icon_1.svg" />
-              </div>
-              <div class="col-8">
-                <div class="div">
-                  <p class="my-0 mt-3 address">Address</p>
-                  <p class="muted-color my-0">
-                    4117 Leroy LaneHarold, KY 41635,
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-1 my-4">
-                <img src="contact/contact_icon_2.svg" />
-              </div>
-              <div class="col-8">
-                <div class="div">
-                  <p class="my-0 mt-3 address">Contract Number</p>
-                  <p class="muted-color my-0">+606-243-4966</p>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-1 my-4">
-                <img src="contact/contact_icon_3.svg" />
-              </div>
-              <div class="col-8">
-                <div class="div">
-                  <p class="my-0 mt-3 address">Email Address</p>
-                  <p class="muted-color my-0">sandesh@angularminds.in</p>
-                </div>
-              </div>
+            <input
+              type="text"
+              placeholder="enter your email"
+              class="form-control phone-no bg-white p-3"
+            />
+            <div class="div my-3 send-message text-center">
+              <div class="btn p-2 suscribe-ftr">Suscribe</div>
             </div>
           </div>
-        </div>
-        <div class="col-xl-6 col-sm-12">
-          <div class="div contact-second">
-            <p class="frequent-Q text-start">Please fill up the form</p>
-            <div class="row">
-              <div class="col">
-                <input type="text" placeholder="name" class="form-control phone-no bg-white p-3" />
-              </div>
-              <div class="col">
-                <input type="text" placeholder="email address" class="form-control phone-no bg-white p-3" />
-              </div>
-            </div>
-            <div class="row">
-              <div class="col mt-2">
-                <input type="text" placeholder="phone no" class="form-control phone-no bg-white p-3" />
-              </div>
-            </div>
-
-            <div class="row mt-2">
-              <div class="col-12">
-                <textarea cols="62" rows="5" class="phone-no" placeholder="Write your massage"></textarea>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <div class="btn send-message px-3 py-2 mt-3">
-                  Send Message
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- footer section starts -->
-  <div class="div footer-section">
-    <div class="div container">
-      <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-3">
-          <div class="div">
-            <img src="logo_footer.svg" class="" />
-            <p class="onftr pt-3">
-              On the other hand, we denounce with righteous indignation and
-              dislike men who are so
-            </p>
-            <div class="row py-3">
-              <div class="col-1 pe-4"><img src="footer/facebook.svg" /></div>
-              <div class="col-1 px-4"><img src="footer/twitter.svg" /></div>
-              <div class="col-1 px-4"><img src="footer/instagram.svg" /></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-3 px-5">
-          <p class="availabel">Available POS</p>
-          <ul class="list-unstyled onftr">
-            <li>Food Delivery</li>
-            <li>Furniture Store</li>
-            <li>Coffee Shop</li>
-            <li>Clothing Store</li>
-            <li>eCommerce</li>
-          </ul>
-        </div>
-        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-3 px-5">
-          <p class="availabel">Company</p>
-          <ul class="list-unstyled onftr">
-            <li>Features</li>
-            <li>FAQ</li>
-            <li>Privacy Policy</li>
-            <li>Terms of Use</li>
-          </ul>
-        </div>
-        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-3 px-5">
-          <p class="availabel">Suscribe US</p>
-          <p class="onftr mb-3">
-            Get Business news, tip and solutions to your problems from our
-            experts.
+          <hr class="bg-light" />
+          <p class="text-center onftr p-3">
+            Copyright 2022. Created by Thememarch.
           </p>
-          <input type="text" placeholder="enter your email" class="form-control phone-no bg-white p-3" />
-          <div class="div my-3 send-message text-center">
-            <div class="btn p-2 suscribe-ftr">Suscribe</div>
-          </div>
         </div>
-        <hr class="bg-light" />
-        <p class="text-center onftr p-3">
-          Copyright 2022. Created by Thememarch.
-        </p>
       </div>
     </div>
-  </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
