@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Static Web Designing</title>
     <link
+      rel="icon"
+      href="https://posing-html.vercel.app/assets/img/favicon.png"
+    />
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
@@ -42,7 +46,7 @@
             </ul>
           </div>
         </div>
-        <div class="col">
+        <div class="col mx-5 my-3">
           <div class="d-flex">
             <button class="btn">Login</button>
             <button class="btn btn-info btn-color-white start px-3">
@@ -57,15 +61,16 @@
         </div>
       </div>
     </div>
-
-    <ul class="list-unstyled droplist bg-light mt-5 fixed-top" id="droplist">
-      <li class="p-4">Home</li>
-      <li class="p-4">About</li>
-      <li class="p-4">Feature</li>
-      <li class="p-4">Pricing</li>
-      <li class="p-4">News</li>
-      <li class="p-4">Contact</li>
-    </ul>
+    <div class="div droplist-menu">
+      <ul class="list-unstyled droplist bg-light mt-5 my-5" id="droplist">
+        <li class="p-2">Home</li>
+        <li class="p-2">About</li>
+        <li class="p-2">Feature</li>
+        <li class="p-2">Pricing</li>
+        <li class="p-2">News</li>
+        <li class="p-2">Contact</li>
+      </ul>
+    </div>
 
     <!-- second section starts -->
     <div class="" id="second">
@@ -80,8 +85,12 @@
 
           <button class="btn second-start">Start free trail</button>
         </div>
-        <div class="second-right col-12 col-lg-6 col-xl-6" id="f-image">
-          <img src="hero_img.png" class="hero_img" alt="hero image" />
+        <div class="second-right col-12 col-lg-6 col-xl-6">
+          <div class="div hero-img-bg">
+            <div class="div hero-img-img align-self-start rounded-circle">
+              <img src="hero_img.png" style="max-width: 100%" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -94,16 +103,30 @@
           Our Best Inventory
         </h2>
       </div>
-      <div class="div">
+      <div class="div container">
         <div class="row">
           <div class="col-sm-12 col-lg-6 col-xl-3 inventory-cards-1200">
             <div class="div third-cards rounded-50 ms-4">
               <div class="card rounded mt-4" style="width: 18rem">
-                <div
-                  class="div sixth-images align-self-start mt-4 mx-4 rounded-circle"
-                >
-                  <img src="icons/icon_box_1.svg" class="" />
+                <!-- <div class="div d-flex"> -->
+                <div class="row">
+                  <div class="col">
+                    <div
+                      class="div sixth-images align-self-start mt-4 mx-4 rounded-circle"
+                    >
+                      <img src="icons/icon_box_1.svg" class="" />
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="div d-flex inventory-number justify-content-end align-items-start"
+                    >
+                      01
+                    </div>
+                  </div>
                 </div>
+
+                <!-- </div> -->
                 <div class="card-body">
                   <h5 class="card-title">Recipe management & costing</h5>
                   <p class="card-text">
@@ -117,14 +140,21 @@
           <div class="col-sm-12 col-lg-6 col-xl-3 inventory-cards-1200">
             <div class="div ms-4">
               <div class="card rounded" style="width: 18rem">
-                <div
-                  class="div sixth-images align-self-start mt-4 mx-4 rounded-circle"
-                >
-                  <img
-                    class=""
-                    src="icons/icon_box_2.svg"
-                    alt="Card image cap"
-                  />
+                <div class="row">
+                  <div class="col">
+                    <div
+                      class="div sixth-images align-self-start mt-4 mx-4 rounded-circle"
+                    >
+                      <img src="icons/icon_box_2.svg" class="" />
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="div d-flex inventory-number justify-content-end align-items-start"
+                    >
+                      02
+                    </div>
+                  </div>
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">Stock management & inventory</h5>
@@ -139,14 +169,21 @@
           <div class="col-sm-12 col-lg-6 col-xl-3 inventory-cards-1200">
             <div class="div ms-4">
               <div class="card mt-4 rounded" style="width: 18rem">
-                <div
-                  class="div sixth-images align-self-start mt-4 mx-4 rounded-circle"
-                >
-                  <img
-                    class=" "
-                    src="icons/icon_box_3.svg"
-                    alt="Card image cap"
-                  />
+                <div class="row">
+                  <div class="col">
+                    <div
+                      class="div sixth-images align-self-start mt-4 mx-4 rounded-circle"
+                    >
+                      <img src="icons/icon_box_3.svg" class="" />
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="div d-flex inventory-number justify-content-end align-items-start"
+                    >
+                      03
+                    </div>
+                  </div>
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">Purchase management system</h5>
@@ -154,7 +191,6 @@
                     Lorem Ipsum is simply dummy text of the printing andformal
                     typesetting
                   </p>
-                  gray
                 </div>
               </div>
             </div>
@@ -162,14 +198,21 @@
           <div class="col-sm-12 col-lg-6 col-xl-3 inventory-cards-1200">
             <div class="div ms-4">
               <div class="card rounded" style="width: 18rem">
-                <div
-                  class="div align-self-start mt-4 mx-4 rounded-circle sixth-images"
-                >
-                  <img
-                    class=""
-                    src="icons/icon_box_4.svg"
-                    alt="Card image cap"
-                  />
+                <div class="row">
+                  <div class="col">
+                    <div
+                      class="div sixth-images align-self-start mt-4 mx-4 rounded-circle"
+                    >
+                      <img src="icons/icon_box_4.svg" class="" />
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="div d-flex inventory-number justify-content-end align-items-start"
+                    >
+                      04
+                    </div>
+                  </div>
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">Powerful inventory reporting</h5>
@@ -320,8 +363,8 @@
         <div class="row d-flex justify-content-center">
           <div class="border-round col-sm-12 col-md-12 col-lg-6 col-xl-4">
             <div class="card mb-3 p-2" style="max-width: 540px">
-              <div class="row g-0">
-                <div class="col-md-4">
+              <div class="d-flex justify-content-center">
+                <div class="div">
                   <div
                     class="div img-fluid sixth-images rounded-circle mx-4 mt-4"
                   >
@@ -332,7 +375,7 @@
                     />
                   </div>
                 </div>
-                <div class="col-md-8">
+                <div class="div">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">
@@ -346,15 +389,19 @@
           </div>
           <div class="border-round col-sm-12 col-md-12 col-lg-6 col-xl-4">
             <div class="card mb-3 p-2" style="max-width: 540px">
-              <div class="row g-0">
-                <div class="col-md-4">
+              <div class="d-flex justify-content-center">
+                <div class="div">
                   <div
                     class="div img-fluid sixth-images rounded-circle mx-4 mt-4"
                   >
-                    <img src="sixth cards/icon_box_6.svg" class="" alt="..." />
+                    <img
+                      src="sixth cards/icon_box_6.svg"
+                      class="p-2"
+                      alt="..."
+                    />
                   </div>
                 </div>
-                <div class="col-md-8">
+                <div class="div">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">
@@ -368,15 +415,15 @@
           </div>
           <div class="border-round col-sm-12 col-md-12 col-lg-6 col-xl-4">
             <div class="card mb-3 p-2" style="max-width: 540px">
-              <div class="row g-0">
-                <div class="col-md-4">
+              <div class="d-flex justify-content-center">
+                <div class="div">
                   <div
                     class="div img-fluid sixth-images rounded-circle mx-4 mt-4"
                   >
                     <img
                       src="sixth cards/icon_box_7.svg"
                       class="p-1"
-                      alt="..."
+                      alt="div"
                     />
                   </div>
                 </div>
@@ -394,15 +441,15 @@
           </div>
           <div class="border-round col-sm-12 col-md-12 col-lg-6 col-xl-4">
             <div class="card mb-3 p-2" style="max-width: 540px">
-              <div class="row g-0">
-                <div class="col-md-4">
+              <div class="d-flex justify-content-center">
+                <div class="div">
                   <div
                     class="div img-fluid sixth-images rounded-circle mx-4 mt-4"
                   >
                     <img
                       src="sixth cards/icon_box_8.svg"
                       class="p-1"
-                      alt="..."
+                      alt="div"
                     />
                   </div>
                 </div>
@@ -420,15 +467,15 @@
           </div>
           <div class="border-round col-sm-12 col-md-12 col-lg-6 col-xl-4">
             <div class="card mb-3 p-2" style="max-width: 540px">
-              <div class="row g-0">
-                <div class="col-md-4">
+              <div class="d-flex justify-content-center">
+                <div class="div">
                   <div
                     class="div img-fluid sixth-images rounded-circle mx-4 mt-4"
                   >
                     <img
                       src="sixth cards/icon_box_9.svg"
                       class="p-1"
-                      alt="..."
+                      alt="div"
                     />
                   </div>
                 </div>
@@ -446,15 +493,15 @@
           </div>
           <div class="border-round col-sm-12 col-md-12 col-lg-6 col-xl-4">
             <div class="card mb-3 p-2" style="max-width: 540px">
-              <div class="row g-0">
-                <div class="col-md-4">
+              <div class="d-flex justify-content-center">
+                <div class="div">
                   <div
                     class="div img-fluid sixth-images rounded-circle mx-4 mt-4"
                   >
                     <img
                       src="sixth cards/icon_box_10.svg"
                       class="ps-3"
-                      alt="..."
+                      alt="div"
                     />
                   </div>
                 </div>
@@ -477,74 +524,83 @@
     </div>
 
     <!-- Seventh section starts  -->
-
-    <div class="div seven-section" style="background-color: rgb(246, 242, 237)">
-      <div class="div text-center">
-        <p class="home-p">Retails stores</p>
-        <h4 class="font-weight-bold best">
-          Perfect point of sale software for<br />
-          most retail stores
-        </h4>
-      </div>
-    </div>
-
-    <!-- 2nd part -->
-
-    <div class="div text-center seven-second">
-      <div class="row">
-        <div class="col-sm-12 col-lg-6 col-xl-6 img-fluid">
-          <div class="div p-4">
-            <img src="retails/retail-store.png" class="retaillogo" />
-          </div>
+    <div
+      class="div"
+      style="
+        background: linear-gradient(257.51deg, #f2fcfe 44.07%, #faf1fe 100%);
+      "
+    >
+      <div class="div seven-section">
+        <div class="div text-center">
+          <p class="home-p">Retails stores</p>
+          <h4 class="font-weight-bold best">
+            Perfect point of sale software for<br />
+            most retail stores
+          </h4>
         </div>
-        <div class="col-sm-12 col-lg-6 col-xl-6">
-          <div class="div mx-4" style="width: 100%">
-            <div class="row-sm-12 row-md-12 mb-3 ms-5">
-              <div
-                class="col-sm-12 col-lg-5 col-xl-5 retail-col d-flex align-items-center justify-content-center py-4"
-                style="border-radius: 20px"
-              >
-                <img src="retails/retail_icon_1.svg" class="py-4" />
-                <p class="px-3 retail-p">Food Dilevery</p>
-              </div>
-              <div
-                class="col-sm-12 col-lg-6 col-xl-6 retail-col d-flex align-items-center justify-content-center py-4"
-                style="border-radius: 20px"
-              >
-                <img src="retails/retail_icon_2.svg" />
-                <p class="px-3 retail-p">Cycle Store</p>
-              </div>
+      </div>
+
+      <!-- 2nd part -->
+
+      <div class="div text-center seven-second">
+        <div class="row gx-0">
+          <div
+            class="col-sm-12 col-lg-6 col-xl-6 img-fluid"
+            style="max-width: 100%"
+          >
+            <div class="div pt-0">
+              <img src="retails/retail-store.png" class="retaillogo" />
             </div>
-            <div class="row-sm-12 row-md-12 mb-3 me-5">
+          </div>
+          <div class="col-sm-12 col-lg-6 col-xl-6 mt-5">
+            <div class="div mx-4" style="max-width: 100%">
               <div
-                class="col-sm-12 col-lg-6 col-xl-6 retail-col d-flex align-items-center justify-content-center"
-                style="border-radius: 20px"
+                class="row background-cards-reatil-row background-cards-reatil-row-first"
               >
-                <img src="retails/retail_icon_3.svg" class="py-4" />
-                <p class="px-3 retail-p">Gift Shop</p>
+                <div
+                  class="col-sm-12 col-lg-5 background-cards-reatil col-xl-5 retail-col d-flex align-items-center justify-content-center py-2"
+                >
+                  <img src="retails/retail_icon_1.svg" class="py-3" />
+                  <p class="px-3 retail-p">Food Dilevery</p>
+                </div>
+                <div
+                  class="col-sm-12 col-lg-5 background-cards-reatil col-xl-5 retail-col d-flex align-items-center justify-content-center py-2"
+                >
+                  <img src="retails/retail_icon_2.svg" class="py-3" />
+                  <p class="px-3 retail-p">Cycle Store</p>
+                </div>
               </div>
               <div
-                class="col-sm-12 col-lg-6 col-xl-6 retail-col d-flex align-items-center justify-content-center py-4"
-                style="border-radius: 20px"
+                class="row background-cards-reatil-row background-cards-reatil-row-middle"
               >
-                <img src="retails/retail_icon_4.svg" />
-                <p class="px-3 retail-p">Furniture Store</p>
+                <div
+                  class="col-sm-12 col-lg-5 background-cards-reatil col-xl-5 retail-col d-flex align-items-center justify-content-center py-2"
+                >
+                  <img src="retails/retail_icon_3.svg" class="py-3" />
+                  <p class="px-3 retail-p">Gift shop</p>
+                </div>
+                <div
+                  class="col-sm-12 col-lg-5 background-cards-reatil col-xl-5 retail-col d-flex align-items-center justify-content-center py-2"
+                >
+                  <img src="retails/retail_icon_4.svg" class="py-3" />
+                  <p class="px-3 retail-p">Furniture Store</p>
+                </div>
               </div>
-            </div>
-            <div class="row-sm-12 row-md-12 mb-3 ms-5">
               <div
-                class="col-sm-12 col-lg-6 col-xl-6 retail-col d-flex align-items-center justify-content-center"
-                style="border-radius: 20px"
+                class="row background-cards-reatil-row background-cards-reatil-row-first"
               >
-                <img src="retails/retail_icon_5.svg" class="py-4" />
-                <p class="px-3 retail-p">Clothing Store</p>
-              </div>
-              <div
-                class="col-sm-12 col-lg-6 col-xl-6 retail-col d-flex align-items-center justify-content-center py-4"
-                style="border-radius: 20px"
-              >
-                <img src="retails/retail_icon_6.svg" />
-                <p class="px-3 retail-p">Coffee Shop</p>
+                <div
+                  class="col-sm-12 col-lg-5 background-cards-reatil col-xl-5 retail-col d-flex align-items-center justify-content-center py2"
+                >
+                  <img src="retails/retail_icon_5.svg" class="py-3" />
+                  <p class="px-3 retail-p">Clothing Store</p>
+                </div>
+                <div
+                  class="col-sm-12 col-lg-5 background-cards-reatil col-xl-5 retail-col d-flex align-items-center justify-content-center py-2"
+                >
+                  <img src="retails/retail_icon_6.svg" class="py-3" />
+                  <p class="px-3 retail-p">Coffee Shop</p>
+                </div>
               </div>
             </div>
           </div>
@@ -566,7 +622,7 @@
       <!-- cards -->
       <div>
         <div class="row justify-content-center">
-          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 mx-3 card-color">
+          <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 mx-3 card-color">
             <div class="div pt-4 px-4">
               <div class="div d-flex justify-content-start">
                 <div class="div rounded-circle bg-light p-3">
@@ -594,15 +650,15 @@
                     Unlimited customers
                   </p>
                   <p class="text-muted">
-                    <span class="p-2"><img src="Pricing/Not.svg" /></span>Access
+                    <span class="p-2"><img src="not_check.svg" /></span>Access
                     from anywhere
                   </p>
                   <p class="text-muted">
-                    <span class="p-2"><img src="Pricing/Not.svg" /></span>Accept
+                    <span class="p-2"><img src="not_check.svg" /></span>Accept
                     payments 24/7
                   </p>
                   <p class="text-muted">
-                    <span class="p-2"><img src="Pricing/Not.svg" /></span>Free
+                    <span class="p-2"><img src="not_check.svg" /></span>Free
                     Support
                   </p>
                 </ul>
@@ -612,7 +668,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 mx-3 card-color">
+          <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 mx-3 card-color">
             <div class="div pt-4 px-4">
               <div class="div d-flex justify-content-start">
                 <div class="div rounded-circle bg-light p-3">
@@ -644,11 +700,11 @@
                     >Access from anywhere
                   </p>
                   <p class="text-muted">
-                    <span class="p-2"><img src="Pricing/Not.svg" /></span>Accept
+                    <span class="p-2"><img src="not_check.svg" /></span>Accept
                     payments 24/7
                   </p>
                   <p class="text-muted">
-                    <span class="p-2"><img src="Pricing/Not.svg" /></span>Free
+                    <span class="p-2"><img src="not_check.svg" /></span>Free
                     Support
                   </p>
                 </ul>
@@ -658,7 +714,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 mx-3 card-color">
+          <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 mx-3 card-color">
             <div class="div pt-4 px-4">
               <div class="div d-flex justify-content-start">
                 <div class="div rounded-circle bg-light p-3">
@@ -726,7 +782,9 @@
         >
           <div class="carousel-inner">
             <div class="row d-flex justify-content-center">
-              <div class="col-3 mx-3 pt-4 pb-0 px-4 card-color">
+              <div
+                class="col-sm-12 col-md-12 col-lg-3 mx-3 pt-4 pb-0 px-4 card-color"
+              >
                 <div class=" " style="width: 18rem">
                   <div class="">
                     <p class="">
@@ -751,7 +809,9 @@
                   </div>
                 </div>
               </div>
-              <div class="col-3 mx-3 pt-4 pb-0 px-4 card-color">
+              <div
+                class="col-sm-12 col-md-12 col-lg-3 mx-3 pt-4 pb-0 px-4 card-color testimonial-display-none"
+              >
                 <div class=" " style="width: 18rem">
                   <div class="">
                     <p class="">
@@ -777,7 +837,9 @@
                 </div>
               </div>
 
-              <div class="col-3 mx-3 py-3 px-4 card-color">
+              <div
+                class="col-sm-12 col-md-12 col-lg-3 mx-3 py-3 px-4 card-color testimonial-display-none"
+              >
                 <div class=" " style="width: 18rem">
                   <div class="">
                     <p class="">
@@ -819,42 +881,42 @@
       <!-- second part -->
       <div class="div container">
         <div class="row d-flex justify-content-around align-items-center">
-          <div class="col">
+          <div class="col testimonial-display-576">
             <div
               class="div p-5 client-img d-flex justify-content-center align-items-center"
             >
               <img src="client/client_1.svg" />
             </div>
           </div>
-          <div class="col">
+          <div class="col testimonial-display-576">
             <div
               class="div p-5 client-img d-flex justify-content-center align-items-center"
             >
               <img src="client/client_2.svg" />
             </div>
           </div>
-          <div class="col">
+          <div class="col testimonial-display-none testimonial-display-1000">
             <div
               class="div p-5 client-img d-flex justify-content-center align-items-center"
             >
               <img src="client/client_3.svg" />
             </div>
           </div>
-          <div class="col">
+          <div class="col testimonial-display-1000 testimonial-display-none">
             <div
               class="div p-5 client-img d-flex justify-content-center align-items-center"
             >
               <img src="client/client_4.svg" />
             </div>
           </div>
-          <div class="col">
+          <div class="col testimonial-display-none">
             <div
               class="div p-5 client-img d-flex justify-content-center align-items-center"
             >
               <img src="client/client_5.svg" />
             </div>
           </div>
-          <div class="col">
+          <div class="col testimonial-display-none">
             <div
               class="div p-5 client-img d-flex justify-content-center align-items-center"
             >
@@ -881,7 +943,7 @@
             class="col-sm-12 col-lg-6 col-xl-6 d-flex justify-content-center text-align-center"
           >
             <div class="div">
-              <img src="questions/faq_img.png" />
+              <img src="questions/faq_img.png" style="max-width: 100%" />
             </div>
           </div>
           <div class="col-sm-12 col-lg-5 col-xl-5">
@@ -907,7 +969,7 @@
                   </h2>
                   <div
                     id="flush-collapseOne"
-                    class="accordion-collapse collapse"
+                    class="accordion-collapse collapse show"
                     aria-labelledby="flush-headingOne"
                     data-bs-parent="#accordionFlushExample"
                   >
@@ -1209,7 +1271,7 @@
                       height="1em"
                       preserveAspectRatio="xMidYMid meet"
                       viewBox="0 0 448 512"
-                      class="text-success"
+                      class="logo-color"
                     >
                       <path
                         fill="currentColor"
@@ -1228,7 +1290,7 @@
                         height="1em"
                         preserveAspectRatio="xMidYMid meet"
                         viewBox="0 0 448 512"
-                        class="text-success"
+                        class="logo-color"
                       >
                         <path
                           fill="currentColor"
@@ -1274,7 +1336,7 @@
                       height="1em"
                       preserveAspectRatio="xMidYMid meet"
                       viewBox="0 0 448 512"
-                      class="text-success"
+                      class="logo-color"
                     >
                       <path
                         fill="currentColor"
@@ -1293,7 +1355,7 @@
                         height="1em"
                         preserveAspectRatio="xMidYMid meet"
                         viewBox="0 0 448 512"
-                        class="text-success"
+                        class="logo-color"
                       >
                         <path
                           fill="currentColor"
@@ -1354,7 +1416,7 @@
                   <div class="div">
                     <p class="my-0 mt-3 address">Address</p>
                     <p class="muted-color my-0">
-                      4117 Leroy LaneHarold, KY 41635,
+                      Hinjewadi phase-I, Adarsh Nagar, Pune
                     </p>
                   </div>
                 </div>
@@ -1366,7 +1428,7 @@
                 <div class="col-8">
                   <div class="div">
                     <p class="my-0 mt-3 address">Contract Number</p>
-                    <p class="muted-color my-0">+606-243-4966</p>
+                    <p class="muted-color my-0">+91-8421038407</p>
                   </div>
                 </div>
               </div>
@@ -1415,9 +1477,8 @@
               <div class="row mt-2">
                 <div class="col-sm-12 col-lg-12 col-xl-12 col-lx-12">
                   <textarea
-                  style="width:100%; height:100%"
-                    
-                    class="phone-no bg-danger rounded pt-2"
+                    style="width: 100%; height: 100%"
+                    class="phone-no rounded pt-2"
                     placeholder="Write your massage"
                   ></textarea>
                 </div>
@@ -1489,7 +1550,7 @@
           </div>
           <hr class="bg-light" />
           <p class="text-center onftr p-3">
-            Copyright 2022. Created by Thememarch.
+            Copyright 2022. Created by Sandesh.
           </p>
         </div>
       </div>
