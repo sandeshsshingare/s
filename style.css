@@ -3,7 +3,7 @@
 }
 
 #second {
-  background-image: url("HomeBackground.svg");
+  background: linear-gradient(to right, #ebf5f0, #e6e3fb);
   padding-bottom: 50px;
   max-width: 100%;
   max-height: 100%;
@@ -206,11 +206,16 @@ h1 {
   background-color: white;
   margin-left: -25px;
 }
-
-@media screen and (max-width: 1000px) {
+.navbar {
+  padding: 0 50px;
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 992px) {
   .second-left {
     order: 2;
   }
+
   .testimonial-display-1000 {
     display: none;
   }
@@ -219,7 +224,7 @@ h1 {
     margin: 0px;
   }
   .droplist-menu {
-    margin-top: 8%;
+    margin-top: 0;
 
     position: absolute;
     width: 100%;
@@ -255,10 +260,20 @@ h1 {
   .navbar {
     display: flex;
   }
-
+  #easy-h1 {
+    font-size: 50px;
+    /* color: red; */
+  }
   .seven-second {
     order: 1;
     display: flex;
+  }
+  .inventory-cards-1200-first {
+    margin: 0;
+  }
+  .inventory-cards-1200 {
+    margin: 0px;
+    /* background-color: red; */
   }
 
   .toggle-hide {
@@ -276,6 +291,14 @@ h1 {
   .inventory-1200 {
     margin: 0px;
   }
+
+  #second-img {
+    margin-top: 30px;
+  }
+  #easy-h1 {
+    font-size: 60px;
+    /* color: red; */
+  }
   .inventory-cards-1200 {
     margin: 5px;
     display: flex;
@@ -286,9 +309,45 @@ h1 {
     display: none;
   }
 }
+.inventory-cards-1200-first {
+  margin-top: 20px;
+}
 @media screen and (max-width: 576px) {
   .other-point {
     order: 2;
+  }
+  #easy-h1 {
+    font-size: 40px;
+    /* color: red; */
+  }
+  .navbar-it {
+    padding: 0;
+    margin: 0;
+  }
+  .navbar-it-img {
+    /* margin-left: -40px; */
+    margin-right: 0px;
+    /* background-color: red; */
+    padding-right: 0px;
+    width: 10%;
+    max-width: 100%;
+  }
+  /* .navbar-it-lg {
+    width: 50%;
+    background-color: red;
+    margin-left: -30px;
+  } */
+  .navbar {
+    padding: 0;
+    /* margin-left: -20px; */
+    background-color: red;
+  }
+  .inventory-cards-1200-first {
+    margin: 0;
+  }
+  .inventory-cards-1200 {
+    margin: 0px;
+    /* background-color: red; */
   }
   .background-cards-reatil-row-first {
     margin: 0;
@@ -308,8 +367,9 @@ h1 {
     margin-top: 20%;
     margin-bottom: 0px;
   }
-  .droplist-menu {
-    margin-top: 5%;
+  #droplist {
+    background-color: red;
+    margin-top: 40px;
     padding-top: 100px;
     display: block;
     position: absolute;
