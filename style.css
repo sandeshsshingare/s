@@ -216,6 +216,11 @@ h1 {
     order: 2;
   }
 
+
+@media screen and (max-width: 1000px) {
+  .second-left {
+    order: 2;
+  }
   .testimonial-display-1000 {
     display: none;
   }
@@ -298,6 +303,12 @@ h1 {
   #easy-h1 {
     font-size: 60px;
     /* color: red; */
+  }
+  .inventory-cards-1200 {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(231, 14, 14); */
   }
   .inventory-cards-1200 {
     margin: 5px;
