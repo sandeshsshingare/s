@@ -30,7 +30,7 @@
         id="id1"
       >
         <div class="div navbar-it navbar-it-img">
-          <img class="logo" src="logo.svg" alt="Logo " />
+          <img class="logo posing-logo-start" src="logo.svg" alt="Logo " />
         </div>
         <div class="div navbar-it navbar-it-lg">
           <div class="nav-list">
@@ -44,26 +44,20 @@
             </ul>
           </div>
         </div>
-        <div class="div navbar-it navbar-it-lg">
-          <div class="d-flex">
-            <button class="btn">Login</button>
-            <button
-              class="btn btn-color-white start px-3"
-              style="
-                width: 150px;
-                height: 50px;
-                color: white;
-                font-weight: bold;
-                background-color: #52c8c4;
-              "
-            >
-              Start For Free
+
+        <div class="d-flex navbar-it navbar-it-lg">
+          <button class="btn">Login</button>
+          <button
+            class="btn btn-color-white"
+            id="start"
+            
+          >
+            Start For Free
+          </button>
+          <div class="div toggle-hide">
+            <button class="btn" onclick="toggle()">
+              <span class="material-symbols-outlined"> menu </span>
             </button>
-            <div class="div toggle-hide px-3">
-              <button class="btn" onclick="toggle()">
-                <span class="material-symbols-outlined"> menu </span>
-              </button>
-            </div>
           </div>
         </div>
       </div>
@@ -72,7 +66,12 @@
         <ul
           class="list-unstyled droplist bg-light fixed-top"
           id="droplist"
-          style="display: block; margin-top: 052px; padding-top: 0; position: fixed;"
+          style="
+            display: block;
+            margin-top: 052px;
+            padding-top: 0;
+            position: fixed;
+          "
         >
           <li class="p-2">Home</li>
           <li class="p-2">About</li>
