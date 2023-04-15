@@ -3,8 +3,8 @@ function toggle() {
   //toggle_btn.style.display = "none";
   //alert(toggle_btn.style.display);
   if (toggle_btn.style.display === "none") {
-    toggle_btn.style.display = "block";
-  } else {
     toggle_btn.style.display = "none";
+  } else {
+    toggle_btn.style.display = "block";
   }
 }
